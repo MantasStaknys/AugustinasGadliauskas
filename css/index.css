@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+}
+
+.header-logo {
+    font-size: 25px;
+    color: #fdfeff;
+    font-weight: 400;
+    font-family: "Poppins";
+    margin: 0;
+}
+header {
+    height: 1000px;
+    width: 100vw;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+}
+
+.header-div {
+    margin: 0;
+}
+
+.header-waves {
+    width: 100vw;
+    height: 1000px;
+    padding-right: 1px;
+}
