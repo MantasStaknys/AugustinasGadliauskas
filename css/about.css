@@ -6,10 +6,16 @@ body{
     font-style: normal;
 }
 
+
+
+/* media querry */
+
+/* media pc */
+@media(min-width:1440px){
+
 .txt-position{
     width: 100px;
     height: 500px;
-    /* position: absolute; */
     padding-top: 5vw;
     padding-left: 50vw;
 }
@@ -41,6 +47,57 @@ body{
 
 /* used in all of the pages */
 .button{
+    margin: auto;
+    display: absolute;
+    margin-top: 100px;
+    width: 195px;
+    height: 56px;
+    border-radius: 6px;
+    background-color: #582fd7;
+    color: white;
+    cursor:pointer;
+    border: none;
+}
+}
+/* media pc */
+
+/* media tablet */
+@media(min-width: 768px) and (max-width: 1439px){
+    
+    .txt-position{
+    width: 100px;
+    height: 500px;
+    padding-top: 5vw;
+    padding-left: 25vw;
+}
+
+.img{
+    display: flex;
+    flex: auto;
+    position: absolute;
+    top: 45vw;
+    left: 25vw;
+}
+
+.paragraph{
+    display: flex;
+    height: 50px;
+    width: 500px;
+    display: block;
+    text-align: left;
+}
+
+.h1{
+    display: flex;
+    display: absolute;
+    width: 200px;
+    text-align: center;
+    padding-left: -20px;
+}
+
+
+/* used in all of the pages */
+.button{
     display: absolute;
     margin-top: 100px;
     width: 130px;
@@ -50,3 +107,54 @@ body{
     color: white;
     cursor:pointer;
 }
+}
+/* media tablet */
+
+/* media phone */
+@media(max-width: 767px){
+    
+    .txt-position{
+    width: 100px;
+    height: 500px;
+    padding-top: 5vw;
+    padding-left: 25vw;
+}
+
+.img{
+    display: flex;
+    flex: auto;
+    position: absolute;
+    top: 45vw;
+    left: 25vw;
+}
+
+.paragraph{
+    display: flex;
+    height: 50px;
+    width: 500px;
+    display: block;
+    text-align: left;
+}
+
+.h1{
+    display: flex;
+    display: absolute;
+    width: 200px;
+    text-align: center;
+    padding-left: -20px;
+}
+
+
+/* used in all of the pages */
+.button{
+    display: absolute;
+    margin-top: 100px;
+    width: 130px;
+    height: 50px;
+    background-color: rgba(88,47,215,255);
+    border-radius: 10px;
+    color: white;
+    cursor:pointer;
+}
+}
+/* media phone */
