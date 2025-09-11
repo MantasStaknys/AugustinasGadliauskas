@@ -6,23 +6,24 @@ body{
     font-style: normal;
 }
 
-.txt-position{    
+.txt-position{
     width: 100px;
     height: 500px;
-    position: absolute;
-    top: 100px;
-    left: 1500px;
+    /* position: absolute; */
+    padding-top: 5vw;
+    padding-left: 50vw;
 }
 
 .img{
-    margin-top: -500;
+    display: flex;
     flex: auto;
     position: absolute;
-    top: 100px;
-    left: 500px;
+    top: 5vw;
+    left: 10vw;
 }
 
 .paragraph{
+    display: flex;
     height: 50px;
     width: 500px;
     display: block;
@@ -30,16 +31,17 @@ body{
 }
 
 .h1{
-    display: block;
+    display: flex;
+    display: absolute;
     width: 200px;
     text-align: center;
-    margin-left: -20px;
+    padding-left: -20px;
 }
 
 .button{
-    display: block;
+    display: absolute;
     margin-top: 100px;
-    width: 120px;
+    width: 130px;
     height: 50px;
     background-color: rgba(88,47,215,255);
     border-radius: 10px;
