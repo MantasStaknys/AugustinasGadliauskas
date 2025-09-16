@@ -1,16 +1,16 @@
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: rgb(226, 226, 226);
+}
+.backround{
+    background-color: rgb(226, 226, 226);
+}
 .nav-about {
     background-color: rgb(88, 47, 215);
 }
 
-
-
-
-body{
-    background-color: rgb(226, 226, 226);
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
 .read-more{
     font-size: 17px;
     line-height: 27px;
@@ -29,7 +29,7 @@ body{
 .txt-position{
     width: 6.25rem;
     height: 31.25rem;
-    padding-top: 5vw;
+    padding-top: 1vw;
     padding-left: 50vw;
 }
 
@@ -37,7 +37,7 @@ body{
     display: flex;
     flex: auto;
     position: absolute;
-    top: 5vw;
+    top: 12vw;
     left: 20vw;
 }
 
@@ -78,7 +78,7 @@ body{
 /* media pc */
 
 /* media tablet */
-@media(min-width: 768px) and (max-width: 1542px){
+@media(min-width: 680px) and (max-width: 1542px){
     
     .txt-position{
     width: 6.25rem;
@@ -126,7 +126,7 @@ body{
 /* media tablet */
 
 /* media phone */
-@media(max-width: 767px){
+@media(min-width: 320px) and (max-width: 679px){
     
     .txt-position{
     width: 6.25rem;
@@ -139,7 +139,7 @@ body{
     display: flex;
     flex: auto;
     position: absolute;
-    top: 45vw;
+    top: 90vw;
     left: 25vw;
 }
 
@@ -172,3 +172,28 @@ body{
 
 }
 /* media phone */
+
+@media(max-width: 319px){
+     .txt-position{
+    display: none;
+}
+
+.img{
+    display: none;
+}
+
+.paragraph{
+    display: none;
+}
+
+.h1{
+    display: none;
+}
+
+.button{
+    display: none;
+}
+body{
+    background-color: black;
+}
+}
