@@ -1,0 +1,168 @@
+
+body{
+    background-color: rgb(226, 226, 226);
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.read-more{
+    font-size: 17px;
+    line-height: 27px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Poppins";
+    margin: auto;
+}
+
+
+/* media querry */
+
+/* media pc */
+@media(min-width:1440px){
+
+.txt-position{
+    width: 6.25rem;
+    height: 31.25rem;
+    padding-top: 5vw;
+    padding-left: 50vw;
+}
+
+.img{
+    display: flex;
+    flex: auto;
+    position: absolute;
+    top: 5vw;
+    left: 20vw;
+}
+
+.paragraph{
+    display: flex;
+    height: 3.125rem;
+    width: 31.25rem;
+    display: block;
+    text-align: left;
+}
+
+.h1{
+    display: flex;
+    display: absolute;
+    width: 12.5rem;
+    text-align: center;
+    padding-left: -20rem;
+}
+
+
+/* used in all of the pages */
+.button{
+    margin: auto;
+    display: absolute;
+    margin-top: 6rem;
+    width: 12.188rem;
+    height: 3.5rem;
+    border-radius: 0.375rem;
+    background-color: #582fd7;
+    color: white;
+    cursor:pointer;
+    border: none;
+}
+
+/* used in all of the pages */
+
+}
+/* media pc */
+
+/* media tablet */
+@media(min-width: 768px) and (max-width: 1542px){
+    
+    .txt-position{
+    width: 6.25rem;
+    height: 31.25rem;
+    padding-top: 5vw;
+    padding-left: 25vw;
+}
+
+.img{
+    display: flex;
+    flex: auto;
+    position: absolute;
+    top: 45vw;
+    left: 25vw;
+}
+
+.paragraph{
+    display: flex;
+    height: 3.125rem;
+    width: 31.25rem;
+    display: block;
+    text-align: left;
+}
+
+.h1{
+    display: flex;
+    display: absolute;
+    width: 12.5rem;
+    text-align: center;
+    padding-left: -20rem;
+}
+
+.button{
+    display: absolute;
+    margin-top: 5rem;
+    width: 8.125rem;
+    height: 3.125rem;
+    background-color: rgba(88,47,215,255);
+    border-radius: 0.625rem;
+    color: white;
+    cursor:pointer;
+}
+
+}
+/* media tablet */
+
+/* media phone */
+@media(max-width: 767px){
+    
+    .txt-position{
+    width: 6.25rem;
+    height: 31.25rem;
+    padding-top: 5vw;
+    padding-left: 25vw;
+}
+
+.img{
+    display: flex;
+    flex: auto;
+    position: absolute;
+    top: 45vw;
+    left: 25vw;
+}
+
+.paragraph{
+    display: flex;
+    height: 3.125rem;
+    width: 31.25rem;
+    display: block;
+    text-align: left;
+}
+
+.h1{
+    display: flex;
+    display: absolute;
+    width: 12.5rem;
+    text-align: center;
+    padding-left: -20rem;
+}
+
+.button{
+    display: absolute;
+    margin-top: 5rem;
+    width: 8.125rem;
+    height: 3.125rem;
+    background-color: rgba(88,47,215,255);
+    border-radius: 0.625rem;
+    color: white;
+    cursor:pointer;
+}
+
+}
+/* media phone */
