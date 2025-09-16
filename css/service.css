@@ -9,44 +9,44 @@ body{
    font-family: "Poppins";
    text-align: center; 
    line-height: 30px;
-   margin-top: 350px;
+   margin-top: 200px;
 }
 
 
 .father{
     display: flex;
     flex-wrap: wrap;
-    margin-left: 660px;
-    margin-top: 100px;
+    margin-left: 25.63rem;
+    margin-top: 6.25rem;
     text-align: center;
 }
 
 .child{
-    width: 370px;
+    width: 23.125rem;
     background-color: #ffffff;
     border: 1px solid #e1e1e1;
-    height: 370px;
+    height: 23.125rem;
     flex-direction: row;
-    margin-left: 30px;
+    margin-left: 2rem;
     text-align: center;
 }
 
 .img-analytics{
-    margin-top: 70px;
+    margin-top: 4.375rem;
 }
 
 .analytics{
-    font-size: 24px;
+    font-size: 1.5rem;
     color: #000000;
     font-weight: 600;
     font-family: "Poppins";
     text-align: center;
-    line-height: 16px;
+    line-height: 1rem;
 }
 
 .analytics-p{
-    width: 300px;
-    height: 89px;
+    width: 18.75rem;
+    height: 5.56rem;
     font-size: 16px;
     line-height: 29px;
     color: #030201;
@@ -57,7 +57,7 @@ body{
 }
 
 .web-programming{
-    margin-top: 75px;
+    margin-top: 4.688rem;
 }
 
 .development{
@@ -70,8 +70,8 @@ body{
 }
 
 .development-p{
-    width: 300px;
-    height: 89px;
+    width: 18.75rem;
+    height: 5.56rem;
     font-size: 16px;
     line-height: 29px;
     color: #030201;
@@ -82,7 +82,7 @@ body{
 }
 
 .promotion{
-    margin-top: 70px;
+    margin-top: 4.375rem;
 }
 
 .marketing{
@@ -95,8 +95,8 @@ body{
 }
 
 .marketing-p{
-    width: 300px;
-    height: 89px;
+    width: 18.75rem;
+    height: 5.56rem;
     font-size: 16px;
     line-height: 29px;
     color: #030201;
@@ -113,9 +113,9 @@ body{
 .button{
     margin: auto;
     display: absolute;
-    margin-top: 40px;
-    width: 195px;
-    height: 56px;
+    margin-top: 2.5rem;
+    width: 12.2rem;
+    height: 3.5rem;
     border-radius: 6px;
     background-color: #582fd7;
     color: white;
@@ -131,4 +131,3 @@ body{
     font-family: "Poppins";
     margin: auto;
 }
-
