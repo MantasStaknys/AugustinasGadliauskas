@@ -19,7 +19,7 @@ body {
     text-decoration: none;
 }
 header {
-    height: 1000px;
+    height: 62.5rem;
     width: 100vw;
     background-color: rgb(255, 255, 255);
     margin: 0 auto;
@@ -28,16 +28,19 @@ header {
 .header-div {
     margin: 0;
     width: 100vw;
-    height: 1000px;
-    background-image: url("../img/bgwaves2.png");
+    height: 62.5rem;
+    background-image: url("../img/test3.png");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background-position-y: -300px;
 }
 
 nav {
     width: 650px;
     float: right;
     margin-right: 10vw;
-    margin-bottom: 20px;
-    padding-top: 20px;
+    margin-bottom: 1rem;
+    padding-top: 1rem;
 }
 
 .nav-links {
@@ -49,9 +52,9 @@ nav {
 
     color: white;
     text-decoration: none;
-    margin-right: 15px;
-    padding: 10px;
-    border-radius: 15px;
+    margin-right: 1rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
     transition: 0.2s ease-in-out;
 }
 
