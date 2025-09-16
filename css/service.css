@@ -2,3 +2,136 @@
     background-color: rgb(88, 47, 215);
 }
 
+body{
+    margin: auto;
+}
+.header{
+   font-size: 35px;
+   text-transform: uppercase;
+   color: #212222;
+   font-weight: 700;
+   font-family: "Poppins";
+   text-align: center; 
+   line-height: 30px;
+   margin-top: 200px;
+}
+
+
+.father{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 25.63rem;
+    margin-top: 6.25rem;
+    text-align: center;
+}
+
+.child{
+    width: 23.125rem;
+    background-color: #ffffff;
+    border: 1px solid #e1e1e1;
+    height: 23.125rem;
+    flex-direction: row;
+    margin-left: 2rem;
+    text-align: center;
+}
+
+.img-analytics{
+    margin-top: 4.375rem;
+}
+
+.analytics{
+    font-size: 1.5rem;
+    color: #000000;
+    font-weight: 600;
+    font-family: "Poppins";
+    text-align: center;
+    line-height: 1rem;
+}
+
+.analytics-p{
+    width: 18.75rem;
+    height: 5.56rem;
+    font-size: 16px;
+    line-height: 29px;
+    color: #030201;
+    font-weight: 400;
+    font-family: "Open Sans";
+    text-align: center;
+    margin: auto;
+}
+
+.web-programming{
+    margin-top: 4.688rem;
+}
+
+.development{
+    font-size: 24px;
+    line-height: 16px;
+    color: #000000;
+    font-weight: 600;
+    font-family: "Poppins";
+    text-align: center;
+}
+
+.development-p{
+    width: 18.75rem;
+    height: 5.56rem;
+    font-size: 16px;
+    line-height: 29px;
+    color: #030201;
+    font-weight: 400;
+    font-family: "Open Sans";
+    text-align: center;
+    margin: auto;
+}
+
+.promotion{
+    margin-top: 4.375rem;
+}
+
+.marketing{
+    font-size: 24px;
+    line-height: 16px;
+    color: #000000;
+    font-weight: 600;
+    font-family: "Poppins";
+    text-align: center;
+}
+
+.marketing-p{
+    width: 18.75rem;
+    height: 5.56rem;
+    font-size: 16px;
+    line-height: 29px;
+    color: #030201;
+    font-weight: 400;
+    font-family: "Open Sans";
+    text-align: center;
+    margin: auto;
+}
+
+.wrapper{
+    text-align: center;
+}
+
+.button{
+    margin: auto;
+    display: absolute;
+    margin-top: 2.5rem;
+    width: 12.2rem;
+    height: 3.5rem;
+    border-radius: 6px;
+    background-color: #582fd7;
+    color: white;
+    cursor:pointer;
+    border: none;
+}
+
+.read-more{
+    font-size: 17px;
+    line-height: 27px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Poppins";
+    margin: auto;
+}
