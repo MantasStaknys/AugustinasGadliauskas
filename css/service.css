@@ -5,6 +5,9 @@
 body{
     margin: auto;
 }
+
+@media(min-width:1440px){
+
 .header{
    font-size: 35px;
    text-transform: uppercase;
@@ -13,16 +16,17 @@ body{
    font-family: "Poppins";
    text-align: center; 
    line-height: 30px;
-   margin-top: 200px;
+   margin-top: 6.25rem;
 }
 
 
 .father{
+    margin: auto;
     display: flex;
     flex-wrap: wrap;
-    margin-left: 25.63rem;
     margin-top: 6.25rem;
     text-align: center;
+    width: 80rem;
 }
 
 .child{
@@ -30,7 +34,6 @@ body{
     background-color: #ffffff;
     border: 1px solid #e1e1e1;
     height: 23.125rem;
-    flex-direction: row;
     margin-left: 2rem;
     text-align: center;
 }
@@ -51,7 +54,7 @@ body{
 .analytics-p{
     width: 18.75rem;
     height: 5.56rem;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 29px;
     color: #030201;
     font-weight: 400;
@@ -65,7 +68,7 @@ body{
 }
 
 .development{
-    font-size: 24px;
+    font-size: 1.5rem;
     line-height: 16px;
     color: #000000;
     font-weight: 600;
@@ -76,7 +79,7 @@ body{
 .development-p{
     width: 18.75rem;
     height: 5.56rem;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 29px;
     color: #030201;
     font-weight: 400;
@@ -90,7 +93,7 @@ body{
 }
 
 .marketing{
-    font-size: 24px;
+    font-size: 1.5rem;
     line-height: 16px;
     color: #000000;
     font-weight: 600;
@@ -101,7 +104,7 @@ body{
 .marketing-p{
     width: 18.75rem;
     height: 5.56rem;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 29px;
     color: #030201;
     font-weight: 400;
@@ -116,7 +119,6 @@ body{
 
 .button{
     margin: auto;
-    display: absolute;
     margin-top: 2.5rem;
     width: 12.2rem;
     height: 3.5rem;
@@ -128,10 +130,284 @@ body{
 }
 
 .read-more{
-    font-size: 17px;
+    font-size: 1.1rem;
     line-height: 27px;
     color: #ffffff;
     font-weight: 400;
     font-family: "Poppins";
     margin: auto;
 }
+}
+
+/* media tablet */
+@media(min-width: 768px) and (max-width: 1439px){
+
+.header{
+   font-size: 35px;
+   text-transform: uppercase;
+   color: #212222;
+   font-weight: 700;
+   font-family: "Poppins";
+   text-align: center; 
+   margin: auto;
+   line-height: 30px;
+   margin-top: 6.25rem;
+}
+
+
+.father{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 6.25rem;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.child{
+    width: 23.125rem;
+    background-color: #ffffff;
+    border: 1px solid #e1e1e1;
+    height: 23.125rem;
+    margin-left: 2rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.img-analytics{
+    margin-top: 4.375rem;
+}
+
+.analytics{
+    font-size: 1.5rem;
+    color: #000000;
+    font-weight: 600;
+    font-family: "Poppins";
+    text-align: center;
+    line-height: 1rem;
+}
+
+.analytics-p{
+    width: 18.75rem;
+    height: 5.56rem;
+    font-size: 1rem;
+    line-height: 29px;
+    color: #030201;
+    font-weight: 400;
+    font-family: "Open Sans";
+    text-align: center;
+    margin: auto;
+}
+
+.web-programming{
+    margin-top: 4.688rem;
+}
+
+.development{
+    font-size: 1.5rem;
+    line-height: 16px;
+    color: #000000;
+    font-weight: 600;
+    font-family: "Poppins";
+    text-align: center;
+}
+
+.development-p{
+    width: 18.75rem;
+    height: 5.56rem;
+    font-size: 1rem;
+    line-height: 29px;
+    color: #030201;
+    font-weight: 400;
+    font-family: "Open Sans";
+    text-align: center;
+    margin: auto;
+}
+
+.promotion{
+    margin-top: 4.375rem;
+}
+
+.marketing{
+    font-size: 1.5rem;
+    line-height: 16px;
+    color: #000000;
+    font-weight: 600;
+    font-family: "Poppins";
+    text-align: center;
+}
+
+.marketing-p{
+    width: 18.75rem;
+    height: 5.56rem;
+    font-size: 1rem;
+    line-height: 29px;
+    color: #030201;
+    font-weight: 400;
+    font-family: "Open Sans";
+    text-align: center;
+    margin: auto;
+}
+
+.wrapper{
+    text-align: center;
+}
+
+.button{
+    margin-top: 2.5rem;
+    width: 12.2rem;
+    height: 3.5rem;
+    border-radius: 6px;
+    background-color: #582fd7;
+    color: white;
+    cursor:pointer;
+    border: none;
+}
+
+.read-more{
+    font-size: 1.1rem;
+    line-height: 27px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Poppins";
+    margin: auto;
+}
+}
+/* media tablet */
+ 
+/* media phone */
+@media(max-width: 767px){
+
+.header{
+   font-size: 35px;
+   text-transform: uppercase;
+   color: #212222;
+   font-weight: 700;
+   font-family: "Poppins";
+   text-align: center; 
+   line-height: 30px;
+   margin-top: 6.25rem;
+}
+
+
+.father{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 6.25rem;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.child{
+    width: 23.125rem;
+    background-color: #ffffff;
+    border: 1px solid #e1e1e1;
+    height: 23.125rem;
+    margin-left: 2rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.img-analytics{
+    margin-top: 4.375rem;
+}
+
+.analytics{
+    font-size: 1.5rem;
+    color: #000000;
+    font-weight: 600;
+    font-family: "Poppins";
+    text-align: center;
+    line-height: 1rem;
+}
+
+.analytics-p{
+    width: 18.75rem;
+    height: 5.56rem;
+    font-size: 1rem;
+    line-height: 29px;
+    color: #030201;
+    font-weight: 400;
+    font-family: "Open Sans";
+    text-align: center;
+    margin: auto;
+}
+
+.web-programming{
+    margin-top: 4.688rem;
+}
+
+.development{
+    font-size: 1.5rem;
+    line-height: 16px;
+    color: #000000;
+    font-weight: 600;
+    font-family: "Poppins";
+    text-align: center;
+}
+
+.development-p{
+    width: 18.75rem;
+    height: 5.56rem;
+    font-size: 1rem;
+    line-height: 29px;
+    color: #030201;
+    font-weight: 400;
+    font-family: "Open Sans";
+    text-align: center;
+    margin: auto;
+}
+
+.promotion{
+    margin-top: 4.375rem;
+}
+
+.marketing{
+    font-size: 1.5rem;
+    line-height: 16px;
+    color: #000000;
+    font-weight: 600;
+    font-family: "Poppins";
+    text-align: center;
+}
+
+.marketing-p{
+    width: 18.75rem;
+    height: 5.56rem;
+    font-size: 1rem;
+    line-height: 29px;
+    color: #030201;
+    font-weight: 400;
+    font-family: "Open Sans";
+    text-align: center;
+    margin: auto;
+}
+
+.wrapper{
+    text-align: center;
+}
+
+.button{
+    margin-top: 2.5rem;
+    width: 12.2rem;
+    height: 3.5rem;
+    border-radius: 6px;
+    background-color: #582fd7;
+    color: white;
+    cursor:pointer;
+    border: none;
+}
+
+.read-more{
+    font-size: 1.1rem;
+    line-height: 27px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Poppins";
+    margin: auto;
+}
+}
+/* media phone */

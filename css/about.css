@@ -1,16 +1,16 @@
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: rgb(226, 226, 226);
+}
+.backround{
+    background-color: rgb(226, 226, 226);
+}
 .nav-about {
     background-color: rgb(88, 47, 215);
 }
 
-
-
-
-body{
-    background-color: rgb(226, 226, 226);
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
 .read-more{
     font-size: 17px;
     line-height: 27px;
@@ -29,7 +29,7 @@ body{
 .txt-position{
     width: 6.25rem;
     height: 31.25rem;
-    padding-top: 5vw;
+    padding-top: 1vw;
     padding-left: 50vw;
 }
 
@@ -37,8 +37,8 @@ body{
     display: flex;
     flex: auto;
     position: absolute;
-    top: 5vw;
-    left: 20vw;
+    top: 30vh;
+    left: 19.5vw;
 }
 
 .paragraph{
@@ -78,21 +78,21 @@ body{
 /* media pc */
 
 /* media tablet */
-@media(min-width: 768px) and (max-width: 1542px){
+@media(min-width: 760px) and (max-width: 1542px){
     
     .txt-position{
     width: 6.25rem;
     height: 31.25rem;
-    padding-top: 5vw;
-    padding-left: 25vw;
+    padding-top: 3vh;
+    padding-left: 36vw;
 }
 
 .img{
     display: flex;
     flex: auto;
     position: absolute;
-    top: 45vw;
-    left: 25vw;
+    top: 60vh;
+    left: 33vw;
 }
 
 .paragraph{
@@ -105,7 +105,6 @@ body{
 
 .h1{
     display: flex;
-    display: absolute;
     width: 12.5rem;
     text-align: center;
     padding-left: -20rem;
@@ -114,44 +113,50 @@ body{
 .button{
     display: absolute;
     margin-top: 5rem;
-    width: 8.125rem;
-    height: 3.125rem;
-    background-color: rgba(88,47,215,255);
-    border-radius: 0.625rem;
+    width: 12.188rem;
+    height: 3.5rem;
+    background-color: #582fd7;
+    border-radius: 0.375rem;
     color: white;
     cursor:pointer;
+    border: none;
 }
 
 }
 /* media tablet */
 
 /* media phone */
-@media(max-width: 767px){
+@media(min-width: 320px) and (max-width: 759px){
     
     .txt-position{
     width: 6.25rem;
     height: 31.25rem;
-    padding-top: 5vw;
-    padding-left: 25vw;
+    padding-top: 1vh;
+    padding-left: 15vw;
 }
 
 .img{
+    height: auto;
+    width: 70%;
+    flex-shrink: 2;
     display: flex;
     flex: auto;
     position: absolute;
-    top: 45vw;
-    left: 25vw;
+    top: 60vh;
+    left: 15vw;
 }
 
 .paragraph{
+    font-size: 2.5vw;
     display: flex;
-    height: 3.125rem;
-    width: 31.25rem;
+    height: 5.125rem;
+    width: 28.25rem;
     display: block;
     text-align: left;
 }
 
 .h1{
+    font-size: 4vw;
     display: flex;
     display: absolute;
     width: 12.5rem;
@@ -160,15 +165,22 @@ body{
 }
 
 .button{
+    font-size: 2.5vw;
     display: absolute;
-    margin-top: 5rem;
-    width: 8.125rem;
-    height: 3.125rem;
-    background-color: rgba(88,47,215,255);
-    border-radius: 0.625rem;
+    margin-top: 11.283vw;
+    width: 18.336vw;
+    height: 7.052vw;
+    background-color: #582fd7;
+    border-radius: 0.375rem;
     color: white;
     cursor:pointer;
+    border: none;
 }
-
 }
 /* media phone */
+
+@media(max-width: 319px){
+body{
+    display: none;
+}
+}
