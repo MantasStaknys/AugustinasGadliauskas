@@ -74,12 +74,12 @@ input::placeholder{
     box-sizing: border-box;
     border-radius: 28px;
     border: 0.95px solid #180552;
-    padding-top: 1rem;
+    padding-top: 2rem;
 }
 
 textarea::placeholder{
     position: absolute;
-    transform: translateY(5.2rem);
+    transform: translateY(4.2rem);
     font-size: 17px;
     line-height: 27px;
     color: #3d3c3c;
