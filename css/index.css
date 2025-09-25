@@ -196,10 +196,24 @@ nav {
 
 .slide1 {
     display: inline;
+    transition: 0.3s ease-in-out;
     
 }
 .slide2 {
     transform: translateX(300px);
+    opacity: 0.0;
+    display: none;
+    transition: 0.3s ease-in-out;
+}
+.slide3 {
+    transform: translateX(300px);
+    opacity: 0.0;
+    display: none;
+    transition: 0.3s ease-in-out;
+}
+.slide4 {
+    transform: translateX(300px);
+    opacity: 0.0;
     display: none;
     transition: 0.3s ease-in-out;
 }
