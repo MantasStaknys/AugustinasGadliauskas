@@ -2,6 +2,7 @@
     background-color: rgb(88, 47, 215);
 }
 
+@media(min-width:1440px){
 h1{
     font-size: 35px;
     line-height: 30px;
@@ -10,4 +11,72 @@ h1{
     font-weight: 700;
     font-family: "Poppins";
     text-align: center;
+}
+
+form{
+    text-align: center;
+    margin-top: 3rem;
+}
+input::placeholder{
+    font-size: 17px;
+    line-height: 27px;
+    color: #3d3c3c;
+    font-weight: 400;
+    font-family: "Roboto";
+}
+
+#name, #number, #email, #message{
+    box-sizing: border-box;
+    padding-left: 2rem;
+}
+
+
+#submit{
+    font-size: 17px;
+    line-height: 27px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Poppins";
+    text-align: center;
+    margin-top: 2rem;
+    width: 12.2rem;
+    height: 3.5rem;
+    border-radius: 6px;
+    background-color: #582fd7;
+    color: white;
+    cursor:pointer;
+    border: none;
+}
+
+#name{
+    width: 945px;
+    height: 57px;
+    border-radius: 28px;
+    border: 0.95px solid #180552;
+}
+
+#number{
+    width: 945px;
+    height: 57px;
+    border-radius: 28px;
+    border: 0.95px solid #180552;
+}
+
+#email{
+    width: 945px;
+    height: 57px;
+    border-radius: 28px;
+    border: 0.95px solid #180552;
+}
+
+#message{
+    width: 945px;
+    height: 251px;
+    box-sizing: border-box;
+    border-radius: 28px;
+    border: 0.95px solid #180552;
+    
+}
+
+
 }
