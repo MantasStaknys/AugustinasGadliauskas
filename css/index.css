@@ -180,16 +180,40 @@ nav {
     border-radius: 50%;
 }
 
-.left-arrow:hover {
-    background-color: white;
-    color: black;
+.lr-h {
+    transition: 0.2s ease-in-out;
+}
+.rr-h {
+    transition: 0.2s ease-in-out;
+}
+.lr-h:hover {
     cursor: pointer;
 }
-.right-arrow:hover {
-    background-color: white;
-    color: black;
+
+.rr-h:hover {
     cursor: pointer;
 }
-.fa-solid:hover {
-    color: black    ;
+
+.slide1 {
+    display: inline;
+    transition: 0.3s ease-in-out;
+    
+}
+.slide2 {
+    transform: translateX(300px);
+    opacity: 0.0;
+    display: none;
+    transition: 0.3s ease-in-out;
+}
+.slide3 {
+    transform: translateX(300px);
+    opacity: 0.0;
+    display: none;
+    transition: 0.3s ease-in-out;
+}
+.slide4 {
+    transform: translateX(300px);
+    opacity: 0.0;
+    display: none;
+    transition: 0.3s ease-in-out;
 }
