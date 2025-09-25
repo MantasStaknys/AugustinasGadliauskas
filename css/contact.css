@@ -2,3 +2,12 @@
     background-color: rgb(88, 47, 215);
 }
 
+h1{
+    font-size: 35px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #212222;
+    font-weight: 700;
+    font-family: "Poppins";
+    text-align: center;
+}
