@@ -36,6 +36,13 @@ body{
     height: 23.125rem;
     margin-left: 2rem;
     text-align: center;
+    box-sizing: border-box;
+    transition: 0.2s ease-in-out;
+}
+
+.child:hover{
+  border-width: 5px;
+  transform: scale(1.1,1.1)
 }
 
 .img-analytics{
@@ -137,6 +144,7 @@ body{
     font-family: "Poppins";
     margin: auto;
 }
+
 }
 
 /* media tablet */
