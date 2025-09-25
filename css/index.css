@@ -180,16 +180,26 @@ nav {
     border-radius: 50%;
 }
 
-.left-arrow:hover {
-    background-color: white;
-    color: black;
+.lr-h {
+    transition: 0.2s ease-in-out;
+}
+.rr-h {
+    transition: 0.2s ease-in-out;
+}
+.lr-h:hover {
     cursor: pointer;
 }
-.right-arrow:hover {
-    background-color: white;
-    color: black;
+
+.rr-h:hover {
     cursor: pointer;
 }
-.fa-solid:hover {
-    color: black    ;
+
+.slide1 {
+    display: inline;
+    
+}
+.slide2 {
+    transform: translateX(300px);
+    display: none;
+    transition: 0.3s ease-in-out;
 }

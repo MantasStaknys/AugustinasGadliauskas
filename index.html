@@ -12,6 +12,9 @@
      <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- js scripts -->
+     <script src="js/homeTransition.js" defer></script>
 </head>
 <body>
     <header>
@@ -24,23 +27,33 @@
                 <a class="nav-links nav-portfolio" href="pages/portfolio.html">PORTFOLIO</a>
                 <a class="nav-links nav-contact" href="pages/contact.html">CONTACT</a>
             </nav>
-            <div class="left">
+            <div class="left slide1">
                 <p class="home-text1">WE HELP YOU TO MAKE BETTER <b class="highlight">SOFTWARE</b></p>
                 <p class="home-text2">It is a long esstablished fact that a reader will be distracted by the readable content
                     of a page hen looking.
                 </p>
                 <button class="button"><p class="read-more">Read More</p></button>
             </div>
-            <div class="right">
+            <div class="right slide1">
+                <img class="home-image" src="img/homeimage.png" alt="">
+            </div>
+            <div class="left slide2">
+                <p class="home-text1">WE HELP YOU TO MAKE BETTER <b class="highlight">SOFTWARE</b></p>
+                <p class="home-text2">It is a long esstablished fact that a reader will be distracted by the readable content
+                    of a page hen looking.
+                </p>
+                <button class="button"><p class="read-more">Read More</p></button>
+            </div>
+            <div class="right slide2">
                 <img class="home-image" src="img/homeimage.png" alt="">
             </div>
             <div class="arrows">
-                <div class="left-arrow">
+                <div class="left-arrow lr-h" id="lbtn">
 
-                    <i class="fa-solid fa-arrow-left"></i>
+                    <i class="fa-solid fa-arrow-left lr-h"></i>
                 </div>
-                <div class="right-arrow">
-                    <i class="fa-solid fa-arrow-right"></i>
+                <div class="right-arrow rr-h" id="rbtn">
+                    <i class="fa-solid fa-arrow-right rr-h"></i>
                 </div>
             </div>
         </div>
