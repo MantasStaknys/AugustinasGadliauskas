@@ -2,6 +2,15 @@
     background-color: rgb(88, 47, 215);
 }
 
+.header-logo{
+    width: 150px;
+}
+
+.fa-solid{
+    color: white;
+    display: none !important;
+}
+
 @media(min-width:1440px){
 h1{
     font-size: 35px;
@@ -100,6 +109,17 @@ textarea::placeholder{
     text-align: center;
 }
 
+
+nav{
+    width: 550px;
+    margin-top: 1px;
+    margin-right: 0;
+}
+
+.nav-links{
+    font-size: 15px;
+}
+
 form{
     text-align: center;
     margin-top: 4rem;
@@ -187,6 +207,18 @@ textarea::placeholder{
     text-align: center;
     padding-right: 1rem;
     margin-left: 1rem;
+}
+
+
+nav{
+    display: none;
+}
+
+.fa-solid{
+    display: block !important;
+    margin-left: 85vw;
+    transform: translateY(1.1rem);
+    font-size: 30px;
 }
 
 form{
