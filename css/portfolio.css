@@ -9,25 +9,14 @@ body {
 
 
 
-/* .hooveris{
-    background-color: #ffffff;
-    border: 1px solid #e1e1e1;
-    margin-left: 2rem;
-    text-align: center;
-    box-sizing: border-box;
-    transition: 0.2s ease-in-out;
-}
 
-.hooveris:hover{
-  transform: scale(1.1,1.1)
-} */
 
 /* media querry */
 /* media pc */
 @media(min-width:1440px){
 .txt-position {
     position: absolute;
-    margin-left: 60rem;
+    margin-left: 55rem;
     margin-top: -5rem;
 }
 
@@ -39,13 +28,13 @@ body {
 .img-position {
     position: absolute;
     margin-top: 5rem;
-    margin-left: 35rem;
+    margin-left: 32.6vh;
 }
 
 .button-position {
     position: absolute;
     margin-top: 59rem;
-    margin-left: 75rem;
+    margin-left: 73rem;
 }
 
 .button {
@@ -79,6 +68,20 @@ body {
     "four five six";
     gap: 20px;
 }
+.hooveris{
+    background-color: #ffffff;
+    border: 1px solid #e1e1e1;
+    margin-left: 2rem;
+    text-align: center;
+    box-sizing: border-box;
+    transition: 0.2s ease-in-out;
+    height: 28.525vh;
+    width: 40.75vh;
+}
+
+.hooveris:hover{
+  transform: scale(1.1,1.1)
+}
 }
 /* media pc */
  
@@ -86,7 +89,7 @@ body {
 @media(min-width: 768px) and (max-width: 1439px){
     .txt-position {
     position: absolute;
-    margin-left: 60rem;
+    margin-left: 27rem;
     margin-top: -5rem;
 }
 
@@ -98,13 +101,13 @@ body {
 .img-position {
     position: absolute;
     margin-top: 5rem;
-    margin-left: 35rem;
+    margin-left: 19vh;
 }
 
 .button-position {
     position: absolute;
-    margin-top: 59rem;
-    margin-left: 75rem;
+    margin-top: 80rem;
+    margin-left: 43rem;
 }
 
 .button {
@@ -138,6 +141,20 @@ body {
     "four three"
     "five six";
     gap: 20px;
+}
+.hooveris{
+    background-color: #ffffff;
+    border: 1px solid #e1e1e1;
+    margin-left: 2rem;
+    text-align: center;
+    box-sizing: border-box;
+    transition: 0.2s ease-in-out;
+    height: 350px;
+    width: 500px;
+}
+
+.hooveris:hover{
+  transform: scale(1.1,1.1)
 }
 }
 /* media tablet */
