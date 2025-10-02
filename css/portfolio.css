@@ -14,6 +14,11 @@ body {
 /* media querry */
 /* media pc */
 @media(min-width:1440px){
+    .img{
+    width: 40vh;
+    height: 25vh;  
+    object-fit: cover;    
+    }
 .txt-position {
     position: absolute;
     margin-left: 55rem;
@@ -28,7 +33,7 @@ body {
 .img-position {
     position: absolute;
     margin-top: 5rem;
-    margin-left: 32.6vh;
+    margin-left: 31.6vh;
 }
 
 .button-position {
@@ -62,11 +67,13 @@ body {
 }
 
 .container {
+    width: 100vh;
+    height: 55vh;
   display: grid;
   grid-template-areas:
     "one two three"
     "four five six";
-    gap: 20px;
+    gap: 10px;
 }
 .hooveris{
     background-color: #ffffff;
@@ -75,8 +82,6 @@ body {
     text-align: center;
     box-sizing: border-box;
     transition: 0.2s ease-in-out;
-    height: 28.525vh;
-    width: 40.75vh;
 }
 
 .hooveris:hover{
@@ -87,6 +92,12 @@ body {
  
 /* media tablet */
 @media(min-width: 768px) and (max-width: 1439px){
+    .img{
+    width: 40vh;
+    height: 25vh;  
+    object-fit: cover;    
+    }
+
     .txt-position {
     position: absolute;
     margin-left: 27rem;
@@ -138,9 +149,29 @@ body {
   display: grid;
   grid-template-areas:
     "one two"
-    "four three"
+    "three four"
     "five six";
-    gap: 20px;
+    grid-template-columns: 40vh 40vh;
+    grid-template-rows: 25vh 25vh 25vh;
+    gap: 10px;
+}
+.item1{
+    grid-area: one;
+}
+.item2{
+    grid-area: two;
+}
+.item3{
+    grid-area: three;
+}
+.item4{
+    grid-area: four;
+}
+.item5{
+    grid-area: five;
+}
+.item6{
+    grid-area: six;
 }
 .hooveris{
     background-color: #ffffff;
@@ -149,8 +180,6 @@ body {
     text-align: center;
     box-sizing: border-box;
     transition: 0.2s ease-in-out;
-    height: 350px;
-    width: 500px;
 }
 
 .hooveris:hover{
