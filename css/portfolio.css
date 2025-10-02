@@ -7,6 +7,16 @@ body {
     background-color: rgb(88, 47, 215);
 }
 
+.fa-solid{
+    color: white;
+    display: none !important;
+}
+
+.header-logo{
+    width: 150px;
+}
+
+
 /* media querry */
 /* media pc */
 @media(min-width:1630px){
@@ -96,6 +106,17 @@ body {
     height: 15vw; 
     object-fit: cover;    
     }
+
+nav{
+    width: 550px;
+    margin-top: 1px;
+    margin-right: 0;
+}
+
+.nav-links{
+    font-size: 15px;
+}
+
 
     .txt-position {
     margin-top: 0.1rem;
@@ -196,6 +217,17 @@ body {
     width: 50vw;
     height: 35vw; 
     }
+
+nav{
+    display: none;
+}
+
+.fa-solid{
+    display: block !important;
+    margin-left: 85vw;
+    transform: translateY(1.1rem);
+    font-size: 30px;
+}
 
 .txt-position {
     margin-top: 0.1rem;
