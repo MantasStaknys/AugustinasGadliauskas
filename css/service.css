@@ -4,6 +4,27 @@
 
 body{
     margin: auto;
+    overflow-x: hidden;
+}
+
+.divider {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.8s ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin: auto;
+  flex-wrap: wrap;
+  text-align: center;
+  height: 30rem;
+  flex-direction: row;
+}
+.divider.show {
+  opacity: 1;
+  max-height: 250rem;
 }
 
 @media(min-width:1440px){
@@ -19,22 +40,27 @@ body{
    margin-top: 6.25rem;
 }
 
-
+.divider {
+    width: 80rem;
+}
 .father{
     margin: auto;
     display: flex;
     flex-wrap: wrap;
     margin-top: 6.25rem;
     text-align: center;
+    justify-content: center;
+    align-items: center;
     width: 80rem;
+    gap: 2rem;
 }
 
 .child{
     width: 23.125rem;
     background-color: #ffffff;
     border: 1px solid #e1e1e1;
-    height: 23.125rem;
-    margin-left: 2rem;
+    min-height: 23.125rem;
+    max-height: 35rem;
     text-align: center;
     box-sizing: border-box;
     transition: 0.2s ease-in-out;
@@ -122,6 +148,17 @@ body{
 
 .wrapper{
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.article {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .button{
@@ -162,6 +199,10 @@ body{
    margin-top: 6.25rem;
 }
 
+.divider {
+    flex-direction: column;
+    height: 80rem;
+}
 
 .father{
     margin: auto;
@@ -319,6 +360,10 @@ body{
     text-align: center;
 }
 
+.divider {
+    flex-direction: column;
+    height: 80rem;
+}
 .img-analytics{
     margin-top: 4.375rem;
 }
