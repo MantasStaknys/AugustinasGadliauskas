@@ -217,3 +217,57 @@ nav {
     display: none;
     transition: 0.3s ease-in-out;
 }
+
+.reg-table {
+    border: black solid 2px;
+    width: 20rem;
+    height: 30px;
+}
+.split {
+    width: 6rem;
+    border: black solid 2px;
+}
+table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+td {
+    font-size: 25px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Poppins";
+}
+
+.table-txt {
+    font-size: 17px;
+    line-height: 33px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+
+.table-icons {
+    width: 15px;
+    display: inline;
+    color: black;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.tech1 {
+    background-color: rgb(134, 134, 134);
+    width: 75px;
+    height: 75px;
+    margin: auto    
+}
+.divider {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.8s ease-in-out;
+}
+.divider.show {
+  opacity: 1;
+  max-height: 600px;
+}

@@ -20,6 +20,19 @@ body{
     margin: auto;
 }
 
+.divider {
+  opacity: 0;
+  max-height: 0;
+  width: 31.25rem;
+  margin-top: 4rem;
+  overflow: hidden;
+  transition: all 0.8s ease-in-out;
+}
+.divider.show {
+  opacity: 1;
+  max-height: 600px;
+}
+
 
 /* media querry */
 
