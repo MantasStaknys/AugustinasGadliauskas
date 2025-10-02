@@ -11,6 +11,20 @@
     display: none !important;
 }
 
+.error{
+    border: red 2px solid !important;
+}
+
+.error-text{
+    display: none;
+    font-size: 10px;
+    margin-bottom: -1rem;
+    color: red;
+    font-family: "Poppins";
+}
+
+
+
 @media(min-width:1440px){
 h1{
     font-size: 35px;
@@ -26,6 +40,8 @@ form{
     text-align: center;
     margin-top: 4rem;
 }
+
+
 input::placeholder{
     font-size: 17px;
     line-height: 27px;
