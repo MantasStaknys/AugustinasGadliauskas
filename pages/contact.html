@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/contact.css">
     <script src="../js/contact.js" defer></script>
+    <script src="https://kit.fontawesome.com/6200fbf946.js" crossorigin="anonymous"></script>
 
     <!-- google fonts -->
      <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,6 +18,7 @@
     <header>
         <div class="header-div">
             <a class="logo" href="../index.html"><h3 class="header-logo">TECHDOR</h3></a>
+            <i class="fa-solid fa-bars"></i>
             <nav>
                 <a class="nav-links nav-home" href="../index.html">HOME</a>
                 <a class="nav-links nav-about" href="about.html">ABOUT</a>
@@ -30,22 +32,26 @@
     <h1>REQUEST A CALLBACK</h1>
     <form id="form">
         <div>
-            <input type="text" id="name" name="name" placeholder="Full Name" required>
+            <input type="text" id="name" name="name" placeholder="Full Name">
+            <p class="error-text">This field is required!</p>
         </div>
         <br>
         <br>
         <div>
-            <input type="tel" name="phone-number" id="number" placeholder="Phone Number" required>
+            <input type="tel" name="phone-number" id="number" placeholder="Phone Number">
+            <p class="error-text">This field is required!</p>
         </div>
         <br>
         <br>
         <div>
-            <input type="email" name="email" id="email" placeholder="Email Address" required>
+            <input type="email" name="email" id="email" placeholder="Email Address">
+            <p class="error-text">This field is required!</p>
         </div>
         <br>
         <br>
         <div>
             <textarea name="message" id="message" placeholder="Message"></textarea>
+            <p class="error-text">This field is required!</p>
         </div>
         <br>
         <div>

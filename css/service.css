@@ -27,6 +27,15 @@ body{
   max-height: 250rem;
 }
 
+.header-logo{
+    width: 150px;
+}
+
+.fa-solid{
+    color: white;
+    display: none !important;
+}
+
 @media(min-width:1440px){
 
 .header{
@@ -199,6 +208,16 @@ body{
    margin-top: 6.25rem;
 }
 
+nav{
+    width: 550px;
+    margin-top: 1px;
+    margin-right: 0;
+}
+
+.nav-links{
+    font-size: 15px;
+}
+
 .divider {
     flex-direction: column;
     height: 80rem;
@@ -337,6 +356,18 @@ body{
    text-align: center; 
    line-height: 30px;
    margin-top: 6.25rem;
+}
+
+nav{
+    display: none;
+}
+
+
+.fa-solid{
+    display: block !important;
+    margin-left: 85vw;
+    transform: translateY(1.1rem);
+    font-size: 30px;
 }
 
 
