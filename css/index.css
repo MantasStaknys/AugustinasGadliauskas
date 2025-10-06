@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    overflow-x: hidden;
 }
 
 .header-logo {
@@ -130,6 +131,7 @@ nav {
     color: white;
     cursor:pointer;
     border: none;
+    transition: 0.2s ease-in-out;
 }
 .read-more{
     font-size: 1.1rem;
@@ -218,31 +220,45 @@ nav {
     transition: 0.3s ease-in-out;
 }
 
+footer {
+    margin-top: 20rem;
+    width: 100vw;
+    height: 50rem;
+    background-image: url("../img/bgwavesFooter.png");
+    background-repeat: no-repeat;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 .reg-table {
-    border: black solid 2px;
-    width: 20rem;
+    width: 23rem;
     height: 30px;
 }
 .split {
     width: 6rem;
-    border: black solid 2px;
 }
 table {
+    padding-top: 20rem;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 td {
     font-size: 25px;
-    color: #000000;
+    color: #ffffff;
     font-weight: 400;
     font-family: "Poppins";
+}
+.head {
+    font-weight: normal;
 }
 
 .table-txt {
     font-size: 17px;
     line-height: 33px;
-    color: #000000;
+    color: #ffffff;
     font-weight: 400;
     font-family: "Open Sans";
 }
@@ -250,13 +266,13 @@ td {
 .table-icons {
     width: 15px;
     display: inline;
-    color: black;
+    color: rgb(255, 255, 255);
     padding-right: 10px;
     padding-left: 10px;
 }
 
 .tech1 {
-    background-color: rgb(134, 134, 134);
+    background-color: rgb(255, 255, 255);
     width: 75px;
     height: 75px;
     margin: auto    
@@ -270,4 +286,54 @@ td {
 .divider.show {
   opacity: 1;
   max-height: 600px;
+}
+
+.fa-brands {
+    margin-left: 1rem;
+}
+
+.mail {
+    width: 15rem;
+    height: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.subscribe {
+    margin-bottom: 1rem;
+    width: 9rem;
+    height: 3rem;
+    background-color: #582fd7;
+    color: white;
+    cursor:pointer;
+    border: none;
+    font-size: 17px;
+    line-height: 33px;
+    text-transform: uppercase;
+    color: #fffcf4;
+    font-weight: 400;
+    font-family: "Open Sans";
+    transition: 0.2s ease-in-out;
+}
+
+.subscribe:hover {
+    background-color: #421fad;
+}
+
+.right-tbl {
+    margin-left: 5rem;
+}
+
+.cp-div {
+
+    margin-top: 5rem;
+    width: 40rem;
+    height: 20rem;
+}
+.cp {
+    text-align: center;
+    font-size: 17px;    
+    line-height: 26px;
+    color: #fdfeff;
+    font-weight: 400;
+    font-family: "Raleway";
 }
