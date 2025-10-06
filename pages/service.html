@@ -19,12 +19,26 @@
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/6200fbf946.js" crossorigin="anonymous"></script>
     <script src="../js/ReadMore.js" defer></script>
+    <script src="../js/burgerMenu.js" defer></script>
 </head>
 <body>
-    <header>
+    <div class="brg-menu2" id="brgMenu2"></div>
+    <div class="brg-menu" id="brgMenu">
+        <i class="fa-solid fa-xmark fa-2x"></i>
+        <a class="nav-links nav-home nav-mobile" href="../index.html">HOME</a>
+        <a class="nav-links nav-about nav-mobile" href="about.html">ABOUT</a>
+        <a class="nav-links nav-service nav-mobile" href="service.html">SERVICE</a>
+        <a class="nav-links nav-portfolio nav-mobile" href="portfolio.html">PORTFOLIO</a>
+        <a class="nav-links nav-contact nav-mobile" href="contact.html">CONTACT</a>
+    </div>
+    <button id="brg-btn" class="mobile-btn"><i class="fa-solid fa-bars" id="mob"></i></button>
+    <header id="header">
+        
+
+        
         <div class="header-div">
             <a class="logo" href="../index.html"><h3 class="header-logo">TECHDOR</h3></a>
-            <i class="fa-solid fa-bars"></i>
+            
             <nav>
                 <a class="nav-links nav-home" href="../index.html">HOME</a>
                 <a class="nav-links nav-about" href="about.html">ABOUT</a>
@@ -35,7 +49,7 @@
         </div>
     </header>
 
-    <article class="article">
+    <article class="article" id="article">
         <h1 class="header">OUR SERVICES</h1>
         <div class="father">
             <div class="child">
