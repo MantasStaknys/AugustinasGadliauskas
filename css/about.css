@@ -11,6 +11,15 @@ body{
     background-color: rgb(88, 47, 215);
 }
 
+.header-logo{
+    width: 150px;
+}
+
+.fa-solid{
+    color: white;
+    display: none !important;
+}
+
 .read-more{
     font-size: 17px;
     line-height: 27px;
@@ -100,6 +109,16 @@ body{
     padding-left: 36vw;
 }
 
+nav{
+    width: 550px;
+    margin-top: 1px;
+    margin-right: 0;
+}
+
+.nav-links{
+    font-size: 15px;
+}
+
 .img{
     display: flex;
     flex: auto;
@@ -144,6 +163,16 @@ body{
     height: 31.25rem;
     padding-top: 1vh;
     padding-left: 15vw;
+}
+
+nav{
+    width: 550px;
+    margin-top: 1px;
+    margin-right: 0;
+}
+
+.nav-links{
+    font-size: 15px;
 }
 
 .img{
@@ -199,6 +228,17 @@ body{
     padding-left: 15vw;
 }
 
+nav{
+    display: none;
+}
+
+.fa-solid{
+    display: block !important;
+    margin-left: 85vw;
+    transform: translateY(1.1rem);
+    font-size: 30px;
+}
+
 .img{
     height: auto;
     width: 70%;
@@ -251,6 +291,17 @@ body{
     padding-left: 15vw;
 }
 
+nav{
+    display: none;
+}
+
+.fa-solid{
+    display: block !important;
+    margin-left: 85vw;
+    transform: translateY(1.1rem);
+    font-size: 30px;
+}
+
 .img{
     height: auto;
     width: 70%;
@@ -300,6 +351,17 @@ body{
     height: 31.25rem;
     padding-top: 1vh;
     padding-left: 15vw;
+}
+
+nav{
+    display: none;
+}
+
+.fa-solid{
+    display: block !important;
+    margin-left: 85vw;
+    transform: translateY(1.1rem);
+    font-size: 30px;
 }
 
 .img{
