@@ -24,7 +24,6 @@ document.addEventListener("click", e => {
         brgMenu.style.right = "-255px";
         brgMenu2.style.right = "-300px";
         menuOn = false;
-        // burgerBtn.classList.remove("mobile-btn-off");
     }
 })
 
@@ -42,7 +41,6 @@ window.addEventListener("resize", () => {
 })
 
 burgerBtn.addEventListener("click", function() {
-    // burgerBtn.classList.add("mobile-btn-off");
 
     header.style.filter = "brightness(50%)"
     article.style.filter = "brightness(50%)"
