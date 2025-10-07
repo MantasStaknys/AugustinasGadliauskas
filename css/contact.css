@@ -125,7 +125,7 @@ textarea::placeholder{
 }
 
 footer {
-    margin-top: 20rem;
+    margin-top: 3rem;
     width: 100vw;
     height: 54rem;
     background-image: url("../img/bgwavesFooter.png");
