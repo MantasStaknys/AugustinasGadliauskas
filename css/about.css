@@ -84,9 +84,8 @@ body{
     margin-top: 3rem;
     margin-left: 2rem;
 }
-
-main {
-    background-color: white;
+.header-div {
+    background-color: rgb(226, 226, 226);
 }
 
 .read-more{
@@ -125,18 +124,14 @@ main {
 @media(min-width:1440px){
 
 .txt-position{
-    width: 6.25rem;
-    height: 31.25rem;
-    padding-top: 1vw;
-    padding-left: 50vw;
+    padding-left: 5vw;
 }
 
-.img{
+main {
     display: flex;
-    flex: auto;
-    position: absolute;
-    top: 30vh;
-    left: 19.5vw;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
 }
 
 .paragraph{
@@ -295,7 +290,7 @@ td {
 /* media pc */
 
 /* media tablet */
-@media(min-width: 900px) and (max-width: 1542px){
+@media(min-width: 900px) and (max-width: 1439px){
     
     .txt-position{
     width: 6.25rem;
@@ -318,7 +313,7 @@ nav{
     display: flex;
     flex: auto;
     position: absolute;
-    top: 60vh;
+    top: 40vh;
     left: 33vw;
 }
 
@@ -496,7 +491,7 @@ nav{
     display: flex;
     flex: auto;
     position: absolute;
-    top: 60vh;
+    top: 30vh;
     left: 20vw;
 }
 
@@ -680,7 +675,7 @@ nav{
     display: flex;
     flex: auto;
     position: absolute;
-    top: 60vh;
+    top: 50vh;
     left: 15vw;
 }
 
@@ -862,7 +857,7 @@ nav{
     display: flex;
     flex: auto;
     position: absolute;
-    top: 60vh;
+    top: 30vh;
     left: 15vw;
 }
 
@@ -1043,7 +1038,7 @@ nav{
     display: flex;
     flex: auto;
     position: absolute;
-    top: 60vh;
+    top: 30vh;
     left: 15vw;
 }
 
@@ -1199,9 +1194,4 @@ td {
     display: block !important;
 }
 }
-/* nothing media querry*/
-@media(max-width: 319px){
-body{
-    display: none;
-}
-}
+
