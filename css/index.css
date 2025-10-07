@@ -222,7 +222,7 @@ nav {
 
 footer {
     width: 100vw;
-    height: 52rem;
+    height: 53.5rem;
     background-image: url("../img/bgwavesFooter.png");
     background-repeat: no-repeat;
     z-index: -1;
@@ -231,10 +231,11 @@ footer {
     align-items: center;
     flex-direction: column;
 }
+
 .reg-table {
     width: 23rem;
-    height: 30px;
 }
+
 .split {
     width: 6rem;
 }
@@ -250,17 +251,36 @@ td {
     font-weight: 400;
     font-family: "Poppins";
 }
+.cp-tr {
+    height: 6rem;
+}
 .head {
     font-weight: normal;
 }
 
-.table-txt {
+.table-txt1 {
     font-size: 17px;
     line-height: 33px;
     color: #ffffff;
     font-weight: 400;
     font-family: "Open Sans";
+    width: 215px;
+    transform: translateY(-5rem);
 }
+
+.table-txt2 {
+    font-size: 17px;
+    line-height: 33px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Open Sans";
+    width: 215px;
+}
+
+.reg-table1{
+    height: 5px;
+}
+
 
 .table-icons {
     width: 15px;
