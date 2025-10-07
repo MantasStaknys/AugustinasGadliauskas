@@ -3,6 +3,7 @@ body{
     font-weight: 400;
     font-style: normal;
     background-color: rgb(226, 226, 226);
+    overflow-x: hidden;
 }
 .backround{
     background-color: rgb(226, 226, 226);
@@ -40,6 +41,13 @@ body{
 .divider.show {
   opacity: 1;
   max-height: 600px;
+}
+.table-icons {
+    width: 15px !important; 
+    display: inline !important;
+    color: rgb(255, 255, 255) !important;
+    padding-right: 10px !important;
+    padding-left: 10px !important;
 }
 
 
@@ -93,6 +101,125 @@ body{
     cursor:pointer;
     border: none;
 }
+
+footer {
+    margin-top: 20rem;
+    width: 100vw;
+    height: 52rem;
+    background-image: url("../img/bgwavesFooter.png");
+    background-repeat: no-repeat;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.reg-table {
+    width: 23rem;
+    height: 30px;
+}
+.split {
+    width: 6rem;
+}
+table {
+    padding-top: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+td {
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Poppins";
+}
+.head {
+    font-weight: normal;
+}
+
+.table-txt {
+    font-size: 17px;
+    line-height: 33px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+
+.table-icons {
+    width: 15px;
+    display: inline;
+    color: rgb(255, 255, 255);
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.tech1 {
+    background-color: rgb(255, 255, 255);
+    width: 75px;
+    height: 75px;
+    margin: auto    
+}
+.divider {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.8s ease-in-out;
+}
+.divider.show {
+  opacity: 1;
+  max-height: 600px;
+}
+
+.fa-brands {
+    margin-left: 1rem;
+}
+
+.mail {
+    width: 15rem;
+    height: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.subscribe {
+    margin-bottom: 1rem;
+    width: 9rem;
+    height: 3rem;
+    background-color: #582fd7;
+    color: white;
+    cursor:pointer;
+    border: none;
+    font-size: 17px;
+    line-height: 33px;
+    text-transform: uppercase;
+    color: #fffcf4;
+    font-weight: 400;
+    font-family: "Open Sans";
+    transition: 0.2s ease-in-out;
+}
+
+.subscribe:hover {
+    background-color: #421fad;
+}
+
+.right-tbl {
+    margin-left: 5rem;
+}
+
+.cp-div {
+
+    margin-top: 5rem;
+    width: 40rem;
+    height: 20rem;
+}
+.cp {
+    text-align: center;
+    font-size: 17px;    
+    line-height: 26px;
+    color: #fdfeff;
+    font-weight: 400;
+    font-family: "Raleway";
+}
+
 
 /* used in all of the pages */
 
@@ -153,6 +280,126 @@ nav{
     cursor:pointer;
     border: none;
 }
+
+
+footer {
+    margin-top: 20rem;
+    width: 100vw;
+    height: 52rem;
+    background-image: url("../img/bgwavesFooter.png");
+    background-repeat: no-repeat;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.reg-table {
+    width: 23rem;
+    height: 30px;
+}
+.split {
+    width: 6rem;
+}
+table {
+    padding-top: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+td {
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Poppins";
+}
+.head {
+    font-weight: normal;
+}
+
+.table-txt {
+    font-size: 17px;
+    line-height: 33px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+
+.table-icons {
+    width: 15px;
+    display: inline;
+    color: rgb(255, 255, 255);
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.tech1 {
+    background-color: rgb(255, 255, 255);
+    width: 75px;
+    height: 75px;
+    margin: auto    
+}
+.divider {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.8s ease-in-out;
+}
+.divider.show {
+  opacity: 1;
+  max-height: 600px;
+}
+
+.fa-brands {
+    margin-left: 1rem;
+}
+
+.mail {
+    width: 15rem;
+    height: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.subscribe {
+    margin-bottom: 1rem;
+    width: 9rem;
+    height: 3rem;
+    background-color: #582fd7;
+    color: white;
+    cursor:pointer;
+    border: none;
+    font-size: 17px;
+    line-height: 33px;
+    text-transform: uppercase;
+    color: #fffcf4;
+    font-weight: 400;
+    font-family: "Open Sans";
+    transition: 0.2s ease-in-out;
+}
+
+.subscribe:hover {
+    background-color: #421fad;
+}
+
+.right-tbl {
+    margin-left: 5rem;
+}
+
+.cp-div {
+
+    margin-top: 5rem;
+    width: 40rem;
+    height: 20rem;
+}
+.cp {
+    text-align: center;
+    font-size: 17px;    
+    line-height: 26px;
+    color: #fdfeff;
+    font-weight: 400;
+    font-family: "Raleway";
+}
+
 
 }
 /* media tablet */
@@ -215,6 +462,125 @@ nav{
     cursor:pointer;
     border: none;
 }
+
+footer {
+    margin-top: 20rem;
+    width: 100vw;
+    height: 54rem;
+    background-image: url("../img/bgwavesFooter.png");
+    background-repeat: no-repeat;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.reg-table {
+    width: 23rem;
+    height: 30px;
+}
+.split {
+    width: 6rem;
+}
+table {
+    padding-top: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+td {
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Poppins";
+}
+.head {
+    font-weight: normal;
+}
+
+.table-txt {
+    font-size: 17px;
+    line-height: 33px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+
+.table-icons {
+    width: 15px;
+    display: inline;
+    color: rgb(255, 255, 255);
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.tech1 {
+    background-color: rgb(255, 255, 255);
+    width: 75px;
+    height: 75px;
+    margin: auto    
+}
+.divider {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.8s ease-in-out;
+}
+.divider.show {
+  opacity: 1;
+  max-height: 600px;
+}
+
+.fa-brands {
+    margin-left: 1rem;
+}
+
+.mail {
+    width: 15rem;
+    height: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.subscribe {
+    margin-bottom: 1rem;
+    width: 9rem;
+    height: 3rem;
+    background-color: #582fd7;
+    color: white;
+    cursor:pointer;
+    border: none;
+    font-size: 17px;
+    line-height: 33px;
+    text-transform: uppercase;
+    color: #fffcf4;
+    font-weight: 400;
+    font-family: "Open Sans";
+    transition: 0.2s ease-in-out;
+}
+
+.subscribe:hover {
+    background-color: #421fad;
+}
+
+.right-tbl {
+    margin-left: 5rem;
+}
+
+.cp-div {
+
+    margin-top: 5rem;
+    width: 40rem;
+    height: 20rem;
+}
+.cp {
+    text-align: center;
+    font-size: 17px;    
+    line-height: 26px;
+    color: #fdfeff;
+    font-weight: 400;
+    font-family: "Raleway";
+}
+
 
 }
 /* media in between tablet and phone */
@@ -280,6 +646,125 @@ nav{
     cursor:pointer;
     border: none;
 }
+
+footer {
+    margin-top: 20rem;
+    width: 100vw;
+    height: 55rem;
+    background-image: url("../img/bgwavesFooter.png");
+    background-repeat: no-repeat;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.reg-table {
+    width: 23rem;
+    height: 30px;
+}
+.split {
+    width: 6rem;
+}
+table {
+    padding-top: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+td {
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Poppins";
+}
+.head {
+    font-weight: normal;
+}
+
+.table-txt {
+    font-size: 17px;
+    line-height: 33px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+
+.table-icons {
+    width: 15px;
+    display: inline;
+    color: rgb(255, 255, 255);
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.tech1 {
+    background-color: rgb(255, 255, 255);
+    width: 75px;
+    height: 75px;
+    margin: auto    
+}
+.divider {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.8s ease-in-out;
+}
+.divider.show {
+  opacity: 1;
+  max-height: 600px;
+}
+
+.fa-brands {
+    margin-left: 1rem;
+}
+
+.mail {
+    width: 15rem;
+    height: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.subscribe {
+    margin-bottom: 1rem;
+    width: 9rem;
+    height: 3rem;
+    background-color: #582fd7;
+    color: white;
+    cursor:pointer;
+    border: none;
+    font-size: 17px;
+    line-height: 33px;
+    text-transform: uppercase;
+    color: #fffcf4;
+    font-weight: 400;
+    font-family: "Open Sans";
+    transition: 0.2s ease-in-out;
+}
+
+.subscribe:hover {
+    background-color: #421fad;
+}
+
+.right-tbl {
+    margin-left: 5rem;
+}
+
+.cp-div {
+
+    margin-top: 5rem;
+    width: 40rem;
+    height: 20rem;
+}
+.cp {
+    text-align: center;
+    font-size: 17px;    
+    line-height: 26px;
+    color: #fdfeff;
+    font-weight: 400;
+    font-family: "Raleway";
+}
+
 }
 /* media phone */
 /* media querry in between phone and nothing */
@@ -343,6 +828,125 @@ nav{
     cursor:pointer;
     border: none;
 }
+
+footer {
+    margin-top: 20rem;
+    width: 100vw;
+    height: 55rem;
+    background-image: url("../img/bgwavesFooter.png");
+    background-repeat: no-repeat;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.reg-table {
+    width: 23rem;
+    height: 30px;
+}
+.split {
+    width: 6rem;
+}
+table {
+    padding-top: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+td {
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Poppins";
+}
+.head {
+    font-weight: normal;
+}
+
+.table-txt {
+    font-size: 17px;
+    line-height: 33px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+
+.table-icons {
+    width: 15px;
+    display: inline;
+    color: rgb(255, 255, 255);
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.tech1 {
+    background-color: rgb(255, 255, 255);
+    width: 75px;
+    height: 75px;
+    margin: auto    
+}
+.divider {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.8s ease-in-out;
+}
+.divider.show {
+  opacity: 1;
+  max-height: 600px;
+}
+
+.fa-brands {
+    margin-left: 1rem;
+}
+
+.mail {
+    width: 15rem;
+    height: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.subscribe {
+    margin-bottom: 1rem;
+    width: 9rem;
+    height: 3rem;
+    background-color: #582fd7;
+    color: white;
+    cursor:pointer;
+    border: none;
+    font-size: 17px;
+    line-height: 33px;
+    text-transform: uppercase;
+    color: #fffcf4;
+    font-weight: 400;
+    font-family: "Open Sans";
+    transition: 0.2s ease-in-out;
+}
+
+.subscribe:hover {
+    background-color: #421fad;
+}
+
+.right-tbl {
+    margin-left: 5rem;
+}
+
+.cp-div {
+
+    margin-top: 5rem;
+    width: 40rem;
+    height: 20rem;
+}
+.cp {
+    text-align: center;
+    font-size: 17px;    
+    line-height: 26px;
+    color: #fdfeff;
+    font-weight: 400;
+    font-family: "Raleway";
+}
+
 }
 /* media querry in between phone and nothing */
 @media(min-width: 320px) and (max-width: 500px){    
@@ -405,6 +1009,125 @@ nav{
     cursor:pointer;
     border: none;
 }
+
+footer {
+    margin-top: 20rem;
+    width: 100vw;
+    height: 55rem;
+    background-image: url("../img/bgwavesFooter.png");
+    background-repeat: no-repeat;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.reg-table {
+    width: 23rem;
+    height: 30px;
+}
+.split {
+    width: 6rem;
+}
+table {
+    padding-top: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+td {
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Poppins";
+}
+.head {
+    font-weight: normal;
+}
+
+.table-txt {
+    font-size: 17px;
+    line-height: 33px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+
+.table-icons {
+    width: 15px;
+    display: inline;
+    color: rgb(255, 255, 255);
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.tech1 {
+    background-color: rgb(255, 255, 255);
+    width: 75px;
+    height: 75px;
+    margin: auto    
+}
+.divider {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.8s ease-in-out;
+}
+.divider.show {
+  opacity: 1;
+  max-height: 600px;
+}
+
+.fa-brands {
+    margin-left: 1rem;
+}
+
+.mail {
+    width: 15rem;
+    height: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.subscribe {
+    margin-bottom: 1rem;
+    width: 9rem;
+    height: 3rem;
+    background-color: #582fd7;
+    color: white;
+    cursor:pointer;
+    border: none;
+    font-size: 17px;
+    line-height: 33px;
+    text-transform: uppercase;
+    color: #fffcf4;
+    font-weight: 400;
+    font-family: "Open Sans";
+    transition: 0.2s ease-in-out;
+}
+
+.subscribe:hover {
+    background-color: #421fad;
+}
+
+.right-tbl {
+    margin-left: 5rem;
+}
+
+.cp-div {
+
+    margin-top: 5rem;
+    width: 40rem;
+    height: 20rem;
+}
+.cp {
+    text-align: center;
+    font-size: 17px;    
+    line-height: 26px;
+    color: #fdfeff;
+    font-weight: 400;
+    font-family: "Raleway";
+}
+
 }
 /* nothing media querry*/
 @media(max-width: 319px){
