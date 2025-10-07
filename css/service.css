@@ -6,6 +6,58 @@ body{
     margin: auto;
     overflow-x: hidden;
 }
+.brg-menu {
+    width: 255px;
+    height: 100vh;
+    position: fixed;
+    z-index: 101;
+    background-color: #361e74;
+    transition: 0.4s ease-in-out;
+    right: -255px;
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.brg-menu2 {
+    width: 300px;
+    height: 100vh;
+    position: fixed;
+    z-index: 100;
+    background-color: #736db9;
+    transition: 0.3s ease-out;
+    right: -300px;
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.mobile-btn {
+    background-color: rgba(0, 0, 0, 0);
+    width: 50px;
+    height: 50px;
+    right: 25px;
+}
+.fa-xmark {
+    align-self: flex-end;
+    margin-right: 1.4rem;
+    margin-top: 1.5rem;
+    color: white;
+    transition: 0.2s ease-in-out;
+}
+
+.fa-xmark:hover {
+    color: #212222;
+    cursor: pointer;
+}
+
+.nav-mobile {
+    margin-top: 3rem;
+    margin-left: 2rem;
+}
 
 .divider {
   opacity: 0;
@@ -25,6 +77,15 @@ body{
 .divider.show {
   opacity: 1;
   max-height: 250rem;
+}
+
+.header-logo{
+    width: 150px;
+}
+
+.fa-solid{
+    color: white;
+    display: none !important;
 }
 
 @media(min-width:1440px){
@@ -199,6 +260,17 @@ body{
    margin-top: 6.25rem;
 }
 
+nav{
+    width: 550px;
+    margin-top: 1px;
+    margin-right: 0;
+}
+
+.nav-links{
+    font-size: 15px;
+}
+
+
 .divider {
     flex-direction: column;
     height: 80rem;
@@ -336,7 +408,30 @@ body{
    font-family: "Poppins";
    text-align: center; 
    line-height: 30px;
-   margin-top: 6.25rem;
+   margin-top: 0;
+}
+
+nav{
+    display: none;
+}
+
+.article {
+    background-color: white;
+}
+
+
+
+.fa-solid{
+    display: block !important;
+    /* margin-left: 85vw;
+    transform: translateY(1.1rem); */
+    font-size: 30px;
+    transition: 0.2s ease-in-out;
+}
+
+.fa-solid:hover {
+    color: #212222;
+    cursor: pointer;
 }
 
 
