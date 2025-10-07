@@ -38,8 +38,19 @@ body{
 .mobile-btn {
     background-color: rgba(0, 0, 0, 0);
     width: 50px;
-    height: 50px;
+    height: 30px;
     right: 25px;
+}
+.mobile-btn-off {
+    max-height: 50px;
+}
+
+.fa-buns {
+    font-size: 30px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    display: none !important;
 }
 .fa-xmark {
     align-self: flex-end;
@@ -85,7 +96,6 @@ body{
 
 .fa-solid{
     color: white;
-    display: none !important;
 }
 
 @media(min-width:1440px){
@@ -419,14 +429,13 @@ nav{
     background-color: white;
 }
 
-
-
-.fa-solid{
-    display: block !important;
-    /* margin-left: 85vw;
-    transform: translateY(1.1rem); */
-    font-size: 30px;
-    transition: 0.2s ease-in-out;
+.mobile-btn {
+    position: absolute;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    top: 50px;
+    right: 30px;
 }
 
 .fa-solid:hover {
@@ -557,5 +566,8 @@ nav{
     font-family: "Poppins";
     margin: auto;
 }
+.fa-buns {
+    display: block !important;
 }
-/* media phone */
+}
+/* media phone *
