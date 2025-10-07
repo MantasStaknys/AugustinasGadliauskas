@@ -127,7 +127,7 @@ textarea::placeholder{
 footer {
     margin-top: 20rem;
     width: 100vw;
-    height: 53.5rem;
+    height: 54rem;
     background-image: url("../img/bgwavesFooter.png");
     background-repeat: no-repeat;
     z-index: -1;
@@ -179,7 +179,7 @@ td {
     background-color: rgb(255, 255, 255);
     width: 75px;
     height: 75px;
-    margin: auto;
+    margin: auto    
 }
 .divider {
   opacity: 0;
@@ -217,6 +217,7 @@ td {
     font-weight: 400;
     font-family: "Open Sans";
     transition: 0.2s ease-in-out;
+    transform: translateX(-3.2rem);
 }
 
 .subscribe:hover {
@@ -228,6 +229,7 @@ td {
 }
 
 .cp-div {
+
     margin-top: 5rem;
     width: 40rem;
     height: 20rem;
@@ -240,6 +242,11 @@ td {
     font-weight: 400;
     font-family: "Raleway";
 }
+
+#news-form{
+    transform: translate(-1.5rem, -3rem);
+}
+
 }
 
 @media(min-width: 768px) and (max-width: 1439px){
