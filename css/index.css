@@ -238,7 +238,6 @@ footer {
 
 .split {
     width: 6rem;
-    align-items: center;
 }
 
 table {
@@ -261,7 +260,7 @@ td {
 }
 
 .instagram{
-    margin-left: 1.2rem;
+    margin-left: 1.4rem;
 }
 
 .table-txt1 {
@@ -271,7 +270,7 @@ td {
     font-weight: 400;
     font-family: "Open Sans";
     width: 245px;
-    transform: translateY(-4.5rem);
+    transform: translateY(-4rem);
 }
 
 .table-txt2 {
@@ -281,7 +280,8 @@ td {
     font-weight: 400;
     font-family: "Open Sans";
     width: 215px;
-    transform: translateY(-4.5rem);
+    transform: translateY(-4rem);
+    margin-left: -0.6rem;
 }
 
 .reg-table1{
@@ -318,7 +318,7 @@ td {
 
 .fa-brands {
     margin-left: 1.5rem;
-    transform: translateY(-2rem);
+    transform: translate(-1rem, -2rem)
 }
 
 .mail {
@@ -353,7 +353,6 @@ td {
 }
 
 .cp-div {
-
     margin-top: 5rem;
     width: 40rem;
     height: 20rem;
