@@ -19,12 +19,28 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <script src="../js/burgerMenu.js" defer></script>
 </head>
 <body>
-    <header>
-        <div class="header-div">
+    <div class="brg-menu2" id="brgMenu2"></div>
+    <div class="brg-menu" id="brgMenu">
+        <i class="fa-solid fa-xmark fa-2x"></i>
+        <a class="nav-links nav-home nav-mobile" href="../index.html">HOME</a>
+        <a class="nav-links nav-about nav-mobile" href="about.html">ABOUT</a>
+        <a class="nav-links nav-service nav-mobile" href="service.html">SERVICE</a>
+        <a class="nav-links nav-portfolio nav-mobile" href="portfolio.html">PORTFOLIO</a>
+        <a class="nav-links nav-contact nav-mobile" href="contact.html">CONTACT</a>
+    </div>
+   
+    
+    <header id="header">
+        
+
+        <i class="fa-solid fa-bars fa-buns" id="brg-btn"></i>
+        <div class="header-div background">
             <a class="logo" href="../index.html"><h3 class="header-logo">TECHDOR</h3></a>
-            <i class="fa-solid fa-bars"></i>
+            
             <nav>
                 <a class="nav-links nav-home" href="../index.html">HOME</a>
                 <a class="nav-links nav-about" href="about.html">ABOUT</a>
@@ -35,36 +51,37 @@
         </div>
     </header>
 
-    <h1>REQUEST A CALLBACK</h1>
-    <form id="form">
-        <div>
-            <input type="text" id="name" name="name" placeholder="Full Name">
-            <p class="error-text">This field is required!</p>
-        </div>
-        <br>
-        <br>
-        <div>
-            <input type="tel" name="phone-number" id="number" placeholder="Phone Number">
-            <p class="error-text">This field is required!</p>
-        </div>
-        <br>
-        <br>
-        <div>
-            <input type="email" name="email" id="email" placeholder="Email Address">
-            <p class="error-text">This field is required!</p>
-        </div>
-        <br>
-        <br>
-        <div>
-            <textarea name="message" id="message" placeholder="Message"></textarea>
-            <p class="error-text">This field is required!</p>
-        </div>
-        <br>
-        <div>
-            <input type="submit" name="submit" id="submit1" value="Send"> 
-        </div>
-    </form>
-
+    <main id="article">
+        <h1>REQUEST A CALLBACK</h1>
+        <form id="form">
+            <div>
+                <input type="text" id="name" name="name" placeholder="Full Name">
+                <p class="error-text">This field is required!</p>
+            </div>
+            <br>
+            <br>
+            <div>
+                <input type="tel" name="phone-number" id="number" placeholder="Phone Number">
+                <p class="error-text">This field is required!</p>
+            </div>
+            <br>
+            <br>
+            <div>
+                <input type="email" name="email" id="email" placeholder="Email Address">
+                <p class="error-text">This field is required!</p>
+            </div>
+            <br>
+            <br>
+            <div>
+                <textarea name="message" id="message" placeholder="Message"></textarea>
+                <p class="error-text">This field is required!</p>
+            </div>
+            <br>
+            <div>
+                <input type="submit" name="submit" id="submit1" value="Send"> 
+            </div>
+        </form>
+    </main>
     <footer>
         <table>
             <tr>
