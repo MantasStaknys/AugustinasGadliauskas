@@ -441,9 +441,8 @@ nav{
 }
 
 footer {
-    margin-top: 20rem;
     width: 100vw;
-    height: 52rem;
+    height: 55rem;
     background-image: url("../img/bgwavesFooter.png");
     background-repeat: no-repeat;
     z-index: -1;
@@ -452,13 +451,17 @@ footer {
     align-items: center;
     flex-direction: column;
 }
+
 .reg-table {
     width: 23rem;
-    height: 30px;
 }
+
 .split {
-    width: 6rem;
+    width: 5rem;
+    align-items: center;
+    padding: 0.5rem;
 }
+
 table {
     padding-top: 20rem;
     display: flex;
@@ -471,17 +474,42 @@ td {
     font-weight: 400;
     font-family: "Poppins";
 }
+.cp-tr {
+    height: 6rem;
+}
 .head {
     font-weight: normal;
 }
 
-.table-txt {
+.instagram{
+    margin-left: 1rem;
+}
+
+.table-txt1 {
     font-size: 17px;
     line-height: 33px;
     color: #ffffff;
     font-weight: 400;
     font-family: "Open Sans";
+    width: 245px;
+    transform: translateY(-4rem);
 }
+
+.table-txt2 {
+    font-size: 17px;
+    line-height: 33px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Open Sans";
+    width: 215px;
+    transform: translateY(-4rem);
+    margin-left: -0.6rem;
+}
+
+.reg-table1{
+    height: 5px;
+}
+
 
 .table-icons {
     width: 15px;
@@ -491,12 +519,14 @@ td {
     padding-left: 10px;
 }
 
+
 .tech1 {
     background-color: rgb(255, 255, 255);
     width: 75px;
     height: 75px;
-    margin: auto    
+    margin: auto;    
 }
+
 .divider {
   opacity: 0;
   max-height: 0;
@@ -509,7 +539,8 @@ td {
 }
 
 .fa-brands {
-    margin-left: 1rem;
+    margin-left: 1.5rem;
+    transform: translate(-1rem, -2rem)
 }
 
 .mail {
@@ -544,7 +575,6 @@ td {
 }
 
 .cp-div {
-
     margin-top: 5rem;
     width: 40rem;
     height: 20rem;
@@ -556,6 +586,10 @@ td {
     color: #fdfeff;
     font-weight: 400;
     font-family: "Raleway";
+}
+
+#news-form{
+    margin-top: -2rem;
 }
 }
 /* media tablet */
@@ -672,9 +706,8 @@ nav{
 }
 
 footer {
-    margin-top: 20rem;
     width: 100vw;
-    height: 52rem;
+    height: 55rem;
     background-image: url("../img/bgwavesFooter.png");
     background-repeat: no-repeat;
     z-index: -1;
@@ -683,13 +716,17 @@ footer {
     align-items: center;
     flex-direction: column;
 }
+
 .reg-table {
     width: 23rem;
-    height: 30px;
 }
+
 .split {
-    width: 6rem;
+    width: 5rem;
+    align-items: center;
+    padding: 0.5rem;
 }
+
 table {
     padding-top: 20rem;
     display: flex;
@@ -702,17 +739,42 @@ td {
     font-weight: 400;
     font-family: "Poppins";
 }
+.cp-tr {
+    height: 6rem;
+}
 .head {
     font-weight: normal;
 }
 
-.table-txt {
+.instagram{
+    margin-left: 1rem;
+}
+
+.table-txt1 {
     font-size: 17px;
     line-height: 33px;
     color: #ffffff;
     font-weight: 400;
     font-family: "Open Sans";
+    width: 245px;
+    transform: translateY(-4rem);
 }
+
+.table-txt2 {
+    font-size: 17px;
+    line-height: 33px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Open Sans";
+    width: 215px;
+    transform: translateY(-4rem);
+    margin-left: -0.6rem;
+}
+
+.reg-table1{
+    height: 5px;
+}
+
 
 .table-icons {
     width: 15px;
@@ -722,12 +784,14 @@ td {
     padding-left: 10px;
 }
 
+
 .tech1 {
     background-color: rgb(255, 255, 255);
     width: 75px;
     height: 75px;
-    margin: auto    
+    margin: auto;    
 }
+
 .divider {
   opacity: 0;
   max-height: 0;
@@ -740,7 +804,8 @@ td {
 }
 
 .fa-brands {
-    margin-left: 1rem;
+    margin-left: 1.5rem;
+    transform: translate(-1rem, -2rem)
 }
 
 .mail {
@@ -775,7 +840,6 @@ td {
 }
 
 .cp-div {
-
     margin-top: 5rem;
     width: 40rem;
     height: 20rem;
@@ -787,6 +851,10 @@ td {
     color: #fdfeff;
     font-weight: 400;
     font-family: "Raleway";
+}
+
+#news-form{
+    margin-top: -2rem;
 }
 
 }
