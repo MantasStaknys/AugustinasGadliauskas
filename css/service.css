@@ -6,6 +6,9 @@ body{
     margin: auto;
     overflow-x: hidden;
 }
+th,tr,td{
+    border: #000000 2px solid;
+}
 .brg-menu {
     width: 255px;
     height: 100vh;
@@ -132,6 +135,9 @@ td {
     font-weight: 400;
     font-family: "Poppins";
 }
+.tablet-center{
+    width: 500px;
+}
 .cp-tr {
     height: 6rem;
 }
@@ -252,6 +258,9 @@ td {
 
 @media(min-width:1440px){
 
+    .tablet{
+        display: none;
+    }
 .header{
    font-size: 35px;
    text-transform: uppercase;
@@ -410,7 +419,9 @@ td {
 
 /* media tablet */
 @media(min-width: 768px) and (max-width: 1439px){
-
+.pc{
+    display: none;
+}
 .header{
    font-size: 35px;
    text-transform: uppercase;
