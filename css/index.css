@@ -222,7 +222,7 @@ nav {
 
 footer {
     width: 100vw;
-    height: 53.5rem;
+    height: 55rem;
     background-image: url("../img/bgwavesFooter.png");
     background-repeat: no-repeat;
     z-index: -1;
@@ -238,7 +238,9 @@ footer {
 
 .split {
     width: 6rem;
+    align-items: center;
 }
+
 table {
     padding-top: 20rem;
     display: flex;
@@ -258,14 +260,18 @@ td {
     font-weight: normal;
 }
 
+.instagram{
+    margin-left: 1.2rem;
+}
+
 .table-txt1 {
     font-size: 17px;
     line-height: 33px;
     color: #ffffff;
     font-weight: 400;
     font-family: "Open Sans";
-    width: 215px;
-    transform: translateY(-5rem);
+    width: 245px;
+    transform: translateY(-4.5rem);
 }
 
 .table-txt2 {
@@ -275,6 +281,7 @@ td {
     font-weight: 400;
     font-family: "Open Sans";
     width: 215px;
+    transform: translateY(-4.5rem);
 }
 
 .reg-table1{
@@ -290,12 +297,14 @@ td {
     padding-left: 10px;
 }
 
+
 .tech1 {
     background-color: rgb(255, 255, 255);
     width: 75px;
     height: 75px;
-    margin: auto    
+    margin: auto;    
 }
+
 .divider {
   opacity: 0;
   max-height: 0;
@@ -308,7 +317,8 @@ td {
 }
 
 .fa-brands {
-    margin-left: 1rem;
+    margin-left: 1.5rem;
+    transform: translateY(-2rem);
 }
 
 .mail {
@@ -355,4 +365,8 @@ td {
     color: #fdfeff;
     font-weight: 400;
     font-family: "Raleway";
+}
+
+#news-form{
+    margin-top: -2rem;
 }
