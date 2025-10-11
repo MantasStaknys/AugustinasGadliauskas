@@ -6,6 +6,13 @@ body{
     margin: auto;
     overflow-x: hidden;
 }
+th,td,tr{
+    border: black 1px solid;
+}
+.table-size{
+    width: 500px;
+    
+}
 .brg-menu {
     width: 255px;
     height: 100vh;
@@ -251,7 +258,9 @@ td {
 }
 
 @media(min-width:1440px){
-
+.tablet{
+    display: none;
+}
 .header{
    font-size: 35px;
    text-transform: uppercase;
@@ -410,7 +419,53 @@ td {
 
 /* media tablet */
 @media(min-width: 768px) and (max-width: 1439px){
+.pc{
+    display: none;
+}
+.yes{
+    width: 2.224vw;
+    align-items: center;
+    padding: 0.5rem;
+}
+.table-txt1 {
+    padding-top: 40px;
+    font-size: 17px;
+    line-height: 33px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Open Sans";
+    width: 245px;
+    transform: translateY(-4rem);
+}
+.table-txt2 {
+    font-size: 17px;
 
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Open Sans";
+    width: 215px;
+    transform: translateY(-4rem);
+    margin-left: -1rem;
+    margin-top: 40px;
+}
+footer {
+    width: 100vw;
+    height: auto;
+    background-image: url("../img/bgwavesFooter.png");
+    background-repeat: no-repeat;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover;
+}
+.text-align{
+    text-align: center;
+}
+reg-table2{
+    width: 500px;
+}
 .header{
    font-size: 35px;
    text-transform: uppercase;
@@ -567,7 +622,12 @@ nav{
  
 /* media phone */
 @media(max-width: 767px){
-
+.pc{
+    display: none;
+}
+.tablet{
+    display: none;
+}
 .header{
    font-size: 35px;
    text-transform: uppercase;
