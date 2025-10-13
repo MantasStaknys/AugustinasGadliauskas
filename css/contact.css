@@ -252,7 +252,7 @@ td {
     width: 40rem;
     height: 20rem;
 }
-.cp {
+.cp{
     text-align: center;
     font-size: 17px;    
     line-height: 26px;
@@ -269,6 +269,7 @@ td {
 #news-btn{
     margin-left: -1.5rem;
 }
+
 
 
 
@@ -289,13 +290,15 @@ form{
 }
 
 
-input::placeholder{
+.input::placeholder{
     font-size: 17px;
     line-height: 27px;
     color: #3d3c3c;
     font-weight: 400;
     font-family: "Roboto";
 }
+
+
 
 #name, #number, #email, #message{
     box-sizing: border-box;
