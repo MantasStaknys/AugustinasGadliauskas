@@ -124,6 +124,10 @@ nav {
 .left {
     float: left;
     width: 600px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
 }
 .right {
     float: right;
@@ -290,7 +294,7 @@ nav {
 }
 
 .slide1 {
-    display: inline;
+    display: flex;
     transition: 0.3s ease-in-out;
     
 }
@@ -469,7 +473,7 @@ footer {
 
 @media(max-width: 1440px){
 
-    nav{
+nav {
     width: 550px;
     margin-top: 7px;
     margin-right: 0;
@@ -482,13 +486,43 @@ footer {
 .header-logo{
     margin-left: 8vw;
 }
+
+.king-arthur-cp {
+    max-height: 1500px;
+    gap: 2rem;
 }
+.left {
+    max-height: 800px;
+    width: 40vw;
+}
+.home-image {
+    width: 400px;
+    height: 400px;
+}
+
+.home-text1 {
+    font-size: 38px;
+    width: 450px;
+}
+.highlight {
+    font-size: 38px;
+}
+.home-text2 {
+    font-size: 13px;
+    width: 300px;
+}
+.nav-links {
+    font-size: 15px;
+}
+}
+
 
 @media(max-width: 768px){
     nav{
         display: none;
     }
-    .nav-links{
+
+    .nav-links {
         font-size: 20px;
     }
 
@@ -498,5 +532,32 @@ footer {
     right: 20px;
     top: 20px;
     display: block !important;
-}
+    }
+    .king-arthur-cp {
+        flex-direction: column;
+        margin-top: 0;
+    }
+    .home-text1 {
+        text-align: center;
+    }
+    .home-text2 {
+        text-align: center;
+        width: 450px;
+    }
+    .left {
+        width: 200px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .slide1 {
+        display: flex;
+    }
+    .header-div {
+        background-size: 235rem;
+        height: 72rem;
+    }
+    header {
+        padding-bottom: 15rem;
+    }
 }

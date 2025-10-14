@@ -16,6 +16,24 @@ body {
 .header-logo{
     width: 150px;
 }
+.divider {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.8s ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin: auto;
+  flex-wrap: wrap;
+  text-align: center;
+  flex-direction: row;
+}
+.divider.show {
+  opacity: 1;
+  max-height: 250rem;
+}
 .brg-menu {
     width: 255px;
     height: 100vh;
@@ -118,7 +136,7 @@ footer {
 }
 
 .button-position { 
-    margin-top: 29rem;
+    margin-top: 5rem;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -150,10 +168,10 @@ footer {
 .position {
     display: flex;
     justify-content: center;
-    align-items: start;
+    align-items: center;
+    flex-direction: column;
 }
 .container {
-    position: absolute;
     margin-top: 5rem;
     width: 130vh;
     height: 55vh;
@@ -366,7 +384,8 @@ nav{
 .position {
     display: flex;
     justify-content: center;
-    align-items: start;
+    align-items: center;
+    flex-direction: column;
 }
 
 .button-position {
@@ -534,11 +553,9 @@ td {
   max-height: 0;
   overflow: hidden;
   transition: all 0.8s ease-in-out;
+  margin-top: 2rem;
 }
-.divider.show {
-  opacity: 1;
-  max-height: 600px;
-}
+
 
 .fa-brands {
     margin-left: 1.5rem;
@@ -658,7 +675,8 @@ nav{
 .position {
     display: flex;
     justify-content: center;
-    align-items: start;
+    align-items: center;
+    flex-direction: column;
 }
 
 
