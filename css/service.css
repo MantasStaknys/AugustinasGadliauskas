@@ -273,12 +273,6 @@ td {
 }
 
 @media(min-width:1440px){
-<<<<<<< HEAD
-
-    .tablet{
-        display: none;
-    }
-=======
 .tablet{
     display: none;
 }
@@ -296,7 +290,6 @@ footer {
     align-items: center;
     flex-direction: column;
 }
->>>>>>> main
 .header{
    font-size: 35px;
    text-transform: uppercase;
@@ -458,8 +451,6 @@ footer {
 .pc{
     display: none;
 }
-<<<<<<< HEAD
-=======
 .phone{
     display: none;
 }
@@ -507,7 +498,6 @@ footer {
 reg-table2{
     width: 500px;
 }
->>>>>>> main
 .header{
    font-size: 35px;
    text-transform: uppercase;
@@ -852,4 +842,4 @@ nav{
 }
 
 }
-/* media phone *
+/* media phone */
