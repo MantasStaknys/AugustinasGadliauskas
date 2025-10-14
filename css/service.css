@@ -6,6 +6,20 @@ body{
     margin: auto;
     overflow-x: hidden;
 }
+th,td,tr{
+    border: black 1px solid;
+}
+.table-size{
+    width: 500px;
+    
+}
+.pls-help-im-going-to-kill-myself{
+    height: 5px;
+    width: 5px;
+}
+.hui{
+    margin-top: 50px;
+}
 .brg-menu {
     width: 255px;
     height: 100vh;
@@ -98,18 +112,6 @@ body{
     color: white;
 }
 
-footer {
-    width: 100vw;
-    height: 55rem;
-    background-image: url("../img/bgwavesFooter.png");
-    background-repeat: no-repeat;
-    z-index: -1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
 .reg-table {
     width: 23rem;
 }
@@ -177,14 +179,28 @@ td {
     padding-left: 10px;
 }
 
-
+.nzn{
+    margin-top: 30px;
+}
 .tech1 {
     background-color: rgb(255, 255, 255);
     width: 75px;
     height: 75px;
     margin: auto;    
 }
-
+.tech2 {
+    background-color: rgb(255, 255, 255);
+    width: 75px !important;
+    height: 75px !important;    
+    margin: auto;   
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.tech2 img {
+  width: 75px !important;
+  height: 75px !important; 
+}
 .divider {
   opacity: 0;
   max-height: 0;
@@ -251,7 +267,23 @@ td {
 }
 
 @media(min-width:1440px){
-
+.tablet{
+    display: none;
+}
+.phone{
+    display: none;
+}
+footer {
+    width: 100vw;
+    height: 55rem;
+    background-image: url("../img/bgwavesFooter.png");
+    background-repeat: no-repeat;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 .header{
    font-size: 35px;
    text-transform: uppercase;
@@ -410,7 +442,56 @@ td {
 
 /* media tablet */
 @media(min-width: 768px) and (max-width: 1439px){
+.pc{
+    display: none;
+}
+.phone{
+    display: none;
+}
+.yes{
+    width: 2.224vw;
+    align-items: center;
+    padding: 0.5rem;
+}
+.table-txt1 {
+    padding-top: 40px;
+    font-size: 17px;
+    line-height: 33px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Open Sans";
+    width: 245px;
+    transform: translateY(-4rem);
+}
+.table-txt2 {
+    font-size: 17px;
 
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Open Sans";
+    width: 215px;
+    transform: translateY(-4rem);
+    margin-left: -1rem;
+    margin-top: 40px;
+}
+footer {
+    width: 100vw;
+    height: auto;
+    background-image: url("../img/bgwavesFooter.png");
+    background-repeat: no-repeat;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover;
+}
+.text-align{
+    text-align: center;
+}
+reg-table2{
+    width: 500px;
+}
 .header{
    font-size: 35px;
    text-transform: uppercase;
@@ -567,7 +648,33 @@ nav{
  
 /* media phone */
 @media(max-width: 767px){
-
+footer {
+    width: 100vw;
+    height: auto;
+    background-image: url("../img/bgwavesFooter.png");
+    background-repeat: no-repeat;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover;
+}
+table {
+    padding-top: 33rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-align{
+    text-align: center;
+}
+.pc{
+    display: none;
+}
+.tablet{
+    display: none;
+}
 .header{
    font-size: 35px;
    text-transform: uppercase;
