@@ -124,6 +124,10 @@ nav {
 .left {
     float: left;
     width: 600px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
 }
 .right {
     float: right;
@@ -142,6 +146,77 @@ nav {
 .home-image {
     width: 500px;
     height: 500px;
+}
+.brg-menu {
+    width: 255px;
+    height: 100vh;
+    position: fixed;
+    z-index: 101;
+    background-color: #361e74;
+    transition: 0.4s ease-in-out;
+    right: -255px;
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.brg-menu2 {
+    width: 300px;
+    height: 100vh;
+    position: fixed;
+    z-index: 100;
+    background-color: #736db9;
+    transition: 0.3s ease-out;
+    right: -300px;
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.mobile-btn {
+    background-color: rgba(0, 0, 0, 0);
+    width: 50px;
+    height: 30px;
+    right: 25px;
+}
+.mobile-btn-off {
+    max-height: 50px;
+}
+
+.fa-buns {
+    font-size: 30px;
+    position: absolute;
+    right: 30px;
+    top: 10px;
+    transition: 0.2s ease-in-out;
+    display: none !important;
+}
+.fa-buns {
+    color: white;
+}
+.fa-buns:hover {
+    color: #736db9;
+    cursor: pointer;
+}
+.fa-xmark {
+    align-self: flex-end;
+    margin-right: 1.4rem;
+    margin-top: 1.5rem;
+    color: white;
+    transition: 0.2s ease-in-out;
+}
+
+.fa-xmark:hover {
+    color: #736db9;
+    cursor: pointer;
+}
+
+.nav-mobile {
+    margin-top: 3rem;
+    margin-left: 2rem;
 }
 
 .button{
@@ -219,7 +294,7 @@ nav {
 }
 
 .slide1 {
-    display: inline;
+    display: flex;
     transition: 0.3s ease-in-out;
     
 }
@@ -392,9 +467,13 @@ td {
     margin-top: -2rem;
 }
 
+footer {
+    background-color: white;
+}
+
 @media(max-width: 1440px){
 
-    nav{
+nav {
     width: 550px;
     margin-top: 7px;
     margin-right: 0;
@@ -407,11 +486,44 @@ td {
 .header-logo{
     margin-left: 8vw;
 }
+
+.king-arthur-cp {
+    max-height: 1500px;
+    gap: 2rem;
 }
+.left {
+    max-height: 800px;
+    width: 40vw;
+}
+.home-image {
+    width: 400px;
+    height: 400px;
+}
+
+.home-text1 {
+    font-size: 38px;
+    width: 450px;
+}
+.highlight {
+    font-size: 38px;
+}
+.home-text2 {
+    font-size: 13px;
+    width: 300px;
+}
+.nav-links {
+    font-size: 15px;
+}
+}
+
 
 @media(max-width: 768px){
     nav{
         display: none;
+    }
+
+    .nav-links {
+        font-size: 20px;
     }
 
     .fa-buns {
@@ -420,5 +532,32 @@ td {
     right: 20px;
     top: 20px;
     display: block !important;
-}
+    }
+    .king-arthur-cp {
+        flex-direction: column;
+        margin-top: 0;
+    }
+    .home-text1 {
+        text-align: center;
+    }
+    .home-text2 {
+        text-align: center;
+        width: 450px;
+    }
+    .left {
+        width: 200px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .slide1 {
+        display: flex;
+    }
+    .header-div {
+        background-size: 235rem;
+        height: 72rem;
+    }
+    header {
+        padding-bottom: 15rem;
+    }
 }

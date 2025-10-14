@@ -56,13 +56,20 @@ body{
 .mobile-btn-off {
     max-height: 50px;
 }
-
+footer {
+    background-color: white;
+}
 .fa-buns {
     font-size: 30px;
     position: absolute;
     right: 20px;
     top: 20px;
     display: none !important;
+    transition: 0.2s ease-in-out;
+}
+.fa-buns:hover {
+    color: #736db9;
+    cursor: pointer;
 }
 .fa-xmark {
     align-self: flex-end;
@@ -73,7 +80,7 @@ body{
 }
 
 .fa-xmark:hover {
-    color: #212222;
+    color: #736db9;
     cursor: pointer;
 }
 
@@ -702,11 +709,6 @@ nav{
     height: 50px;
     top: 50px;
     right: 30px;
-}
-
-.fa-solid:hover {
-    color: #212222;
-    cursor: pointer;
 }
 
 
