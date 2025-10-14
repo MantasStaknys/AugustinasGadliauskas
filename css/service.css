@@ -6,10 +6,6 @@ body{
     margin: auto;
     overflow-x: hidden;
 }
-<<<<<<< HEAD
-th,tr,td{
-    border: #000000 2px solid;
-=======
 
 .table-size{
     width: 500px;
@@ -21,7 +17,6 @@ th,tr,td{
 }
 .hui{
     margin-top: 50px;
->>>>>>> main
 }
 .brg-menu {
     width: 255px;
