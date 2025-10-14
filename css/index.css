@@ -9,11 +9,29 @@ body {
     font-weight: 600;
     font-family: "Poppins";
     margin: 0;
-    width: 600px;
     margin-left: 15vw;
     padding-top: 10px;
     text-decoration: none;
     float: left;
+}
+.king-arthur-cp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 5rem;
+    margin-top: 10rem;
+}
+.marie-antoinette-cp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+.J-Robert-Oppenheimer-cp {
+    width: 100vw;
+    height: 5rem;
 }
 
 .logo {
@@ -35,6 +53,14 @@ header {
     z-index: -1;
     /* background-size: 100vw;
     background-position-y: -300px; */
+}
+
+.fa-buns {
+    font-size: 30px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    display: none !important;
 }
 
 nav {
@@ -98,13 +124,9 @@ nav {
 .left {
     float: left;
     width: 600px;
-    padding-top: 13rem;
-    padding-left: 15vw;
 }
 .right {
     float: right;
-    margin-top: 10rem;
-    margin-right: 20vw;
 }
 
 .highlight {
@@ -147,7 +169,7 @@ nav {
     margin: 0 auto;
     display: flex;
     justify-content: center;
-    padding-top: 50rem;
+    padding-top: 3rem;
     gap: 1rem;
 }
 .fa-solid {
@@ -368,4 +390,35 @@ td {
 
 #news-form{
     margin-top: -2rem;
+}
+
+@media(max-width: 1440px){
+
+    nav{
+    width: 550px;
+    margin-top: 7px;
+    margin-right: 0;
+}
+
+.nav-links{
+    font-size: 15px;
+}
+
+.header-logo{
+    margin-left: 8vw;
+}
+}
+
+@media(max-width: 768px){
+    nav{
+        display: none;
+    }
+
+    .fa-buns {
+    font-size: 30px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    display: block !important;
+}
 }
