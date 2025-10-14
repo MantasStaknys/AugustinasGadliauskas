@@ -139,6 +139,9 @@ td {
     font-weight: 400;
     font-family: "Poppins";
 }
+.tablet-center{
+    width: 500px;
+}
 .cp-tr {
     height: 6rem;
 }
@@ -831,4 +834,4 @@ nav{
 }
 
 }
-/* media phone *
+/* media phone */
