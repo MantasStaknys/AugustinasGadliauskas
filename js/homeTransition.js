@@ -61,7 +61,7 @@ function slide(direction, number) {
                     cont4[i].style.transform = "translateX(-300px)"
                     setTimeout(() => {
                         cont1[i].style.display = "none"
-                        cont4[i].style.display = "inline"
+                        cont4[i].style.display = "flex"
                     }, 290)
                     setTimeout(() => {
                         cont4[i].style.opacity = "1.0"
@@ -79,7 +79,7 @@ function slide(direction, number) {
                     cont1[i].style.transform = "translateX(-300px)"
                     setTimeout(() => {
                         cont2[i].style.display = "none"
-                        cont1[i].style.display = "inline"
+                        cont1[i].style.display = "flex"
                     }, 290)
                     setTimeout(() => {
                         cont1[i].style.opacity = "1.0"
@@ -96,7 +96,7 @@ function slide(direction, number) {
                     cont2[i].style.transform = "translateX(-300px)"
                     setTimeout(() => {
                         cont3[i].style.display = "none"
-                        cont2[i].style.display = "inline"
+                        cont2[i].style.display = "flex"
                     }, 290)
                     setTimeout(() => {
                         cont2[i].style.opacity = "1.0"
@@ -113,7 +113,7 @@ function slide(direction, number) {
                     cont3[i].style.transform = "translateX(-300px)"
                     setTimeout(() => {
                         cont4[i].style.display = "none"
-                        cont3[i].style.display = "inline"
+                        cont3[i].style.display = "flex"
                     }, 290)
                     setTimeout(() => {
                         cont3[i].style.opacity = "1.0"
@@ -135,7 +135,7 @@ function slide(direction, number) {
                     cont2[i].style.transform = "translateX(300px)"
                     setTimeout(() => {
                         cont1[i].style.display = "none"
-                        cont2[i].style.display = "inline"
+                        cont2[i].style.display = "flex"
                     }, 290)
                     setTimeout(() => {
                         cont2[i].style.opacity = "1.0"
@@ -152,7 +152,7 @@ function slide(direction, number) {
                     cont3[i].style.transform = "translateX(300px)"
                     setTimeout(() => {
                         cont2[i].style.display = "none"
-                        cont3[i].style.display = "inline"
+                        cont3[i].style.display = "flex"
                     }, 290)
                     setTimeout(() => {
                         cont3[i].style.opacity = "1.0"
@@ -169,7 +169,7 @@ function slide(direction, number) {
                     cont4[i].style.transform = "translateX(300px)"
                     setTimeout(() => {
                         cont3[i].style.display = "none"
-                        cont4[i].style.display = "inline"
+                        cont4[i].style.display = "flex"
                     }, 290)
                     setTimeout(() => {
                         cont4[i].style.opacity = "1.0"
@@ -186,7 +186,7 @@ function slide(direction, number) {
                     cont1[i].style.transform = "translateX(300px)"
                     setTimeout(() => {
                         cont4[i].style.display = "none"
-                        cont1[i].style.display = "inline"
+                        cont1[i].style.display = "flex"
                     }, 290)
                     setTimeout(() => {
                         cont1[i].style.opacity = "1.0"

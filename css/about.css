@@ -315,6 +315,10 @@ td {
     margin-top: -2rem;
 }
 
+footer {
+    background-color: rgb(226, 226, 226);
+}
+
 /* media pc */
 
 /* media tablet */
@@ -371,7 +375,6 @@ nav{
 
 
 footer {
-    margin-top: 20rem;
     width: 100vw;
     height: 52rem;
     background-image: url("../img/bgwavesFooter.png");
@@ -504,6 +507,7 @@ main {
     justify-content: center;
     align-items: center;
     flex-direction: column-reverse;
+    padding-bottom: 20rem;
 }
 
 .fa-solid{
@@ -549,7 +553,7 @@ main {
 }
 
 footer {
-    margin-top: 20rem;
+    /* margin-top: 20rem; */
     width: 100vw;
     height: 55rem;
     background-image: url("../img/bgwavesFooter.png");
