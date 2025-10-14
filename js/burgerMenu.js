@@ -10,9 +10,7 @@ let menuOn = false;
 
 header.style.transition = "0.2s ease-in-out"
 article.style.transition = "0.2s ease-in-out"
-// footer.style.transition = "0.2s ease-in-out"
-
-// burgerBtn.style.position = "fixed";
+footer.style.transition = "0.2s ease-in-out"
 
 
 document.addEventListener("click", e => {
@@ -20,7 +18,7 @@ document.addEventListener("click", e => {
     if (e.target.id != "brg-btn" && menuOn && e.target.id != "brgMenu") {
         header.style.filter = "brightness(100%)"
         article.style.filter = "brightness(100%)"
-        // footer.style.filter = "brightness(100%)"
+        footer.style.filter = "brightness(100%)"
         brgMenu.style.right = "-255px";
         brgMenu2.style.right = "-300px";
         menuOn = false;
@@ -31,7 +29,7 @@ window.addEventListener("resize", () => {
     if (window.innerWidth > 768) {
         header.style.filter = "brightness(100%)"
         article.style.filter = "brightness(100%)"
-        // footer.style.filter = "brightness(100%)"
+        footer.style.filter = "brightness(100%)"
         brgMenu.style.right = "-255px";
         brgMenu2.style.right = "-300px";
         menuOn = false;
@@ -44,7 +42,7 @@ burgerBtn.addEventListener("click", function() {
 
     header.style.filter = "brightness(50%)"
     article.style.filter = "brightness(50%)"
-    // footer.style.filter = "brightness(50%)"
+    footer.style.filter = "brightness(50%)"
     brgMenu.style.right = "0px";
     brgMenu2.style.right = "0px";
     menuOn = true;

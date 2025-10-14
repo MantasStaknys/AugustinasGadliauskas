@@ -143,6 +143,77 @@ nav {
     width: 500px;
     height: 500px;
 }
+.brg-menu {
+    width: 255px;
+    height: 100vh;
+    position: fixed;
+    z-index: 101;
+    background-color: #361e74;
+    transition: 0.4s ease-in-out;
+    right: -255px;
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.brg-menu2 {
+    width: 300px;
+    height: 100vh;
+    position: fixed;
+    z-index: 100;
+    background-color: #736db9;
+    transition: 0.3s ease-out;
+    right: -300px;
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.mobile-btn {
+    background-color: rgba(0, 0, 0, 0);
+    width: 50px;
+    height: 30px;
+    right: 25px;
+}
+.mobile-btn-off {
+    max-height: 50px;
+}
+
+.fa-buns {
+    font-size: 30px;
+    position: absolute;
+    right: 30px;
+    top: 10px;
+    transition: 0.2s ease-in-out;
+    display: none !important;
+}
+.fa-buns {
+    color: white;
+}
+.fa-buns:hover {
+    color: #736db9;
+    cursor: pointer;
+}
+.fa-xmark {
+    align-self: flex-end;
+    margin-right: 1.4rem;
+    margin-top: 1.5rem;
+    color: white;
+    transition: 0.2s ease-in-out;
+}
+
+.fa-xmark:hover {
+    color: #736db9;
+    cursor: pointer;
+}
+
+.nav-mobile {
+    margin-top: 3rem;
+    margin-left: 2rem;
+}
 
 .button{
     margin-top: 2.5rem;
@@ -392,6 +463,10 @@ td {
     margin-top: -2rem;
 }
 
+footer {
+    background-color: white;
+}
+
 @media(max-width: 1440px){
 
     nav{
@@ -412,6 +487,9 @@ td {
 @media(max-width: 768px){
     nav{
         display: none;
+    }
+    .nav-links{
+        font-size: 20px;
     }
 
     .fa-buns {

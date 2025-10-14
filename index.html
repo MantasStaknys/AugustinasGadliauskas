@@ -24,9 +24,20 @@
      <script src="js/homeTransition.js" defer></script>
      <script src="js/ReadMore.js" defer></script>
      <script src="js/subscribe.js" defer></script>
+     <script src="js/burgerMenu.js" defer></script>
 </head>
 <body>
-    <header>
+    <div class="brg-menu2" id="brgMenu2"></div>
+    <div class="brg-menu" id="brgMenu">
+        <i class="fa-solid fa-xmark fa-2x"></i>
+        <a class="nav-links nav-home nav-mobile" href="index.html">HOME</a>
+        <a class="nav-links nav-about nav-mobile" href="pages/about.html">ABOUT</a>
+        <a class="nav-links nav-service nav-mobile" href="pages/service.html">SERVICE</a>
+        <a class="nav-links nav-portfolio nav-mobile" href="pages/portfolio.html">PORTFOLIO</a>
+        <a class="nav-links nav-contact nav-mobile" href="pages/contact.html">CONTACT</a>
+    </div>
+   
+    <header id="header">
         <i class="fa-solid fa-bars fa-buns" id="brg-btn"></i>
         <div class="header-div">
             <div class="J-Robert-Oppenheimer-cp">
@@ -104,7 +115,9 @@
         </div>
     </div>
     </header>
-    <footer>
+    <main id="article">
+    </main>
+    <footer id="footer">
         <table>
             <tr>
                 <td class="reg-table"><h3 class="head">Information</h3></td>

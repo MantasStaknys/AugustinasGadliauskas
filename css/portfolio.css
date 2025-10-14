@@ -94,7 +94,9 @@ main {
     padding-right: 10px !important;
     padding-left: 10px !important;
 }
-
+footer {
+    background-color: white;
+}
 
 /* media querry */
 /* media pc */
